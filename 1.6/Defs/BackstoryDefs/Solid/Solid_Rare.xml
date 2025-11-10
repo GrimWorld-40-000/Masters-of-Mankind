@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!-- Psyker -->
+  
+  <BackstoryDef ParentName="Solid">
+    <defName>GW_QuestPsyker</defName>
+    <identifier>VQE_ChildhoodInventorGenetron</identifier>
+    <slot>Childhood</slot>
+    <title>curious tinkerer</title>
+    <titleShort>tinkerer</titleShort>
+    <description> [PAWN_nameDef] is a psyker. [PAWN_pronoun] is haunted by the daemons of the warp, yet holds extreme power.</description>
+    <skillGains>
+        <Intellectual>10</Intellectual>
+        <Crafting>5</Crafting>
+        <Social>-2</Social>
+    </skillGains>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>None</requiredWorkTags>
+    <spawnCategories>
+      <li>GW_B3Q1Psyker</li>
+    </spawnCategories>
+    <shuffleable>False</shuffleable>
+    <possessions>
+        <RelicMedkit>3</RelicMedkit>
+    </possessions>
+    <forcedTraits>
+        <Industriousness>1</Industriousness>
+        <Nerves>-1</Nerves>
+    </forcedTraits>
+  </BackstoryDef>
+  
+</Defs>
