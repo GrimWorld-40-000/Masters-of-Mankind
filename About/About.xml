@@ -1,0 +1,65 @@
+<ModMetaData>
+	<name>GrimWorld 40,000 - Rulers Beta</name>
+	<author>Clashgore, Tittymcswaggy, Alite, Abomination, sk4p3g04t, Sandwish, TwoLargeGayMen</author>
+	<packageId>grimworld.talonOfTheEmperor</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/TalonsOfTheEmperorModIcon</modIconPath>
+	<supportedVersions>
+      <li>1.5</li>
+      <li>1.6</li>
+   </supportedVersions>
+   <!-- <modDependencies> -->
+		<!-- <li> -->
+          <!-- <packageId>CVNGrimworld.Framework</packageId> -->
+          <!-- <displayName>CVN/GrimWorld 40,000 - Ocularis Terribus</displayName> -->
+          <!-- <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3483499637</steamWorkshopUrl>  -->
+          <!-- <downloadUrl>https://github.com/ShunTheWitch/Chaos-core</downloadUrl> -->
+      <!-- </li> -->
+		<!-- <li> -->
+			<!-- <packageId>Grimworld.Core</packageId> -->
+			<!-- <displayName>Grimworld 40,000 - Core Imperialis</displayName> -->
+			<!-- <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3018671708</steamWorkshopUrl> -->
+		<!-- </li> -->
+  <!-- </modDependencies> -->
+  <modDependenciesByVersion>
+		<v1.5>
+			<li>
+				<packageId>Grimworld.Framework</packageId>
+				<displayName>GrimWorld 40,000 - Framework</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3119805903</steamWorkshopUrl>
+				<downloadUrl>https://github.com/GrimWorld-40-000/GrimWorld-Framework</downloadUrl>
+			</li>
+			<li>
+				<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+				<displayName>Vanilla Expanded Framework</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+				<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+			</li>
+		</v1.5>
+		<v1.6>
+			<li>
+				<packageId>Grimworld.Framework</packageId>
+				<displayName>GrimWorld 40,000 - Framework</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3119805903</steamWorkshopUrl>
+				<downloadUrl>https://github.com/GrimWorld-40-000/GrimWorld-Framework</downloadUrl>
+			</li>
+			<li>
+			<packageId>Grimworld.Core</packageId>
+			<displayName>Grimworld 40,000 - Core Imperialis</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3018671708</steamWorkshopUrl>
+			<downloadUrl>https://github.com/GrimWorld-40-000/Core-Imperialis</downloadUrl>
+		</li>
+		</v1.6>
+	</modDependenciesByVersion>
+	<loadAfter>
+		<li>ceteam.combatextended</li>
+		<li>SmashPhil.VehicleFramework</li>
+		<li>Grimworld.Core</li>
+	</loadAfter>
+
+	<description>
+The Talons of the Emperor, a combination of the Adeptus Custodes and the Sisters of Silence, represent the ultimate Imperial elite in Warhammer 40,000.
+The Adeptus Custodes, the Emperor's golden guardians, are unmatched in martial skill and loyalty. Their intricate armor and advanced weaponry make them formidable on the battlefield.
+The Sisters of Silence, clad in black armor, are psychic nulls immune to the warp's influence. They wield efficient weaponry and operate in covert strike teams, targeting enemies with precision.
+Together, these forces protect the Imperium, ensuring the Emperor's vision endures in the 41st millennium's darkness.
+	</description>
+</ModMetaData>
