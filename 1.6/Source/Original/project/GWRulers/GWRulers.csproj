@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Include all DLLs in the GWRulers\libs folder -->
+  <ItemGroup>
+    <LibDll Include="libs\*.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Add each DLL file as a Reference and copy to output -->
+    <Reference Include="@(LibDll)">
+      <HintPath>%(LibDll.Identity)</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
