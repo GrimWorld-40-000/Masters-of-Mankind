@@ -100,8 +100,8 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_FlameSword</defName>
-		<label>Emperor's sword</label>
-		<description>The Emperor's Sword is a giant, flaming sword that was created and wielded by the God-Emperor of Mankind Himself. Not only can no armor withstand its sundering stroke, but His blade can also destroy daemons permanently, instead of merely banishing them back to the Warp.\n\nThousands of daemons were felled by this blade, and thousands more were felled by Roboute Guilliman, the Imperial Regent, who wielded the Emperor's Sword during the Thirteenth Black Crusade of the 41st Millennium.\n\nOf course, this blade is a mere replica - a fine one it is, but the true Emperor's Sword and its wielder are too important to leave Terra except for the most imperative tasks.</description>
+		<label>Emperor's Sword</label>
+		<description>A giant, flaming sword that was created and wielded by the God-Emperor of Mankind Himself. Not only can no armor withstand its sundering stroke, but His blade can also destroy daemons permanently, instead of merely banishing them back to the Warp.\n\nThousands of daemons were felled by this blade, and thousands more were felled by Roboute Guilliman, the Imperial Regent, who wielded the Emperor's Sword during the Thirteenth Black Crusade of the 41st Millennium.\n\nOf course, this blade is a mere replica - a fine one it is, but the true Emperor's Sword and its wielder are too important to leave Terra except for the most imperative tasks.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/FlameSword</texPath>
@@ -223,8 +223,8 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_EmperorClaw</defName>
-		<label>Emperor's claw</label>
-		<description>WIP.</description>
+		<label>Emperor's Claw</label>
+		<description>An auramite-plated Lightning Claw, designed after the one used by the Emperor of Mankind. A single stroke of this weapon could separate an armored warrior into so many pieces.\n\nMuch is said of the Emperor, but one must never say he did not sacrifice much to defeat Horus.</description>
 		<graphicData>
 			<texPath>Things/Weapons/EmperorClaw</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -323,8 +323,8 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_ValdorSpear</defName>
-		<label>Valdor's spear</label>
-		<description>WIP.</description>
+		<label>Apollonian Spear</label>
+		<description>A masterfully-crafted Guardian Spear patterned after the right hand of Constantin Valdor himself. Not only does it cleave and blast through foes like so much butter, but it also grants truths to its wielder from those it cuts - as the enemy falls, the wielder reaps their skills.\n\nAfter the disappearance of Constantin Valdor, the true Apollonian Spear was placed in storage, worshipped by the Adeptus Custodes as a holy relic.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Valdor/GW_HRM_Valdor_Spear</texPath>
@@ -458,8 +458,8 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_ValdorSpearRanged</defName>
-		<label>Valdor's spear</label>
-		<description>WIP.</description>
+		<label>Apollonian Spear (ranged)</label>
+		<description>A masterfully-crafted Guardian Spear patterned after the right hand of Constantin Valdor himself. Not only does it cleave and blast through foes like so much butter, but it also grants truths to its wielder from those it cuts - as the enemy falls, the wielder reaps their skills.\n\nAfter the disappearance of Constantin Valdor, the true Apollonian Spear was placed in storage, worshipped by the Adeptus Custodes as a holy relic.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Valdor/GW_HRM_Valdor_Spear</texPath>
@@ -607,8 +607,8 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_MalcadorStaff</defName>
-		<label>Malcador's staff</label>
-		<description>WIP.</description>
+		<label>Staff of Malcador</label>
+		<description>A masterfully-crafted staff symbolising high office, patterned after the staff of Malcador the Sigillite. As well as being ornate, it also makes for a surprisingly potent weapon in an emergency. \n\nIt is said that Malcador's staff could unleash a wave of nuclear hellfire at his command, but the man himself considered it a tool rather than a weapon.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/GW_HRM_Malcador_Staff</texPath>
