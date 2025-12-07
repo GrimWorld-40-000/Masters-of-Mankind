@@ -45,7 +45,11 @@
 				</drawData>
 			</li>
 		</renderNodeProperties>
+    <abilities>
+      <li>EmperorLOTDAbility</li>
+    </abilities>
 		<comps>
+			<li Class="gwrulers.HediffCompProperties_AbilitiesStartWithCooldown" />
 			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
 				<ownerFactionHediff>GW40k_SS_InspiringAura_Reciever</ownerFactionHediff>
 				<affectWearer>false</affectWearer>
@@ -130,7 +134,7 @@
 			</li>
 		</stages>
 		<comps>
-      <li Class="GrimworldSummon.HediffCompProperties_DespawnAfterHediffRemoved"/>
+      <li Class="gwrulers.HediffCompProperties_DespawnAfterHediffRemoved"/>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>60000</disappearsAfterTicks>
         <showRemainingTime>true</showRemainingTime>
@@ -152,7 +156,7 @@
 			</li>
 		</stages>
 		<comps>
-      <li Class="GrimworldSummon.HediffCompProperties_DespawnAfterHediffRemoved"/>
+      <li Class="gwrulers.HediffCompProperties_DespawnAfterHediffRemoved"/>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>30000</disappearsAfterTicks>
         <showRemainingTime>true</showRemainingTime>
@@ -174,7 +178,7 @@
 			</li>
 		</stages>
 		<comps>
-      <li Class="GrimworldSummon.HediffCompProperties_DespawnAfterHediffRemoved"/>
+      <li Class="gwrulers.HediffCompProperties_DespawnAfterHediffRemoved"/>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>15000</disappearsAfterTicks>
         <showRemainingTime>true</showRemainingTime>

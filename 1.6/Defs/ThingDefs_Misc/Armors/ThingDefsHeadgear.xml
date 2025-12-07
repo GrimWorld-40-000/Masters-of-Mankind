@@ -118,11 +118,6 @@
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 		</recipeMaker>
 		<comps>
-			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
-				<abilities>
-					<li>EmperorLOTDAbility</li>
-				</abilities>
-			</li>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
 				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
@@ -195,11 +190,6 @@
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 		</recipeMaker>
 		<comps>
-			<li Class="VEF.Abilities.CompProperties_AbilitiesApparel">
-				<abilities>
-					<li>EmperorLOTDAbility</li>
-				</abilities>
-			</li>
 			<li MayRequire="kentington.saveourship2">
 				<compClass>SaveOurShip2.CompEVA</compClass>
 			</li>

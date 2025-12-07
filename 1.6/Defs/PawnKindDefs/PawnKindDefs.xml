@@ -4,11 +4,8 @@
   <PawnKindDef ParentName="CataphractBase">
     <defName>LOTD</defName>
     <label>LOTD</label>
-    <!-- <royalTitleChance>0.1</royalTitleChance> -->
-    <!-- <titleSelectOne> -->
-      <!-- <li>Freeholder</li> -->
-      <!-- <li>Yeoman</li> -->
-    <!-- </titleSelectOne> -->
+    <royalTitleChance Inherit="False" />
+    <titleSelectOne Inherit="False" />
     <combatPower>150</combatPower>
     <weaponTags>
       <li>GunHeavy</li>

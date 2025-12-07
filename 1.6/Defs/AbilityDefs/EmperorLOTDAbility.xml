@@ -1,5 +1,5 @@
 <Defs>
-    <VEF.Abilities.AbilityDef>
+    <AbilityDef>
         <defName>EmperorLOTDAbility</defName>
         
         <label>The Legion Beckons</label>
@@ -9,12 +9,35 @@
         <!-- Placeholder icon path -->
         <iconPath>Emperor/Headgear/GW_HRM_Emperor_LaurelsAura</iconPath> 
         
-        <abilityClass>GrimworldSummon.CompAbilityEffect_EmperorLOTD</abilityClass>
-        <cooldownTime>72000</cooldownTime>
-        <needsTicking>true</needsTicking>
-        <range>80.0</range>
-        <castTime>60</castTime>
-        <targetMode>Location</targetMode>
-        <chance>0</chance>
-    </VEF.Abilities.AbilityDef>
+        
+        <cooldownTicksRange>72000</cooldownTicksRange>
+        <displayOrder>300</displayOrder>
+        
+        <!-- <cooldownPerCharge>true</cooldownPerCharge> -->
+        <!-- <charges>1</charges> -->
+        
+    
+        <comps>
+            <li Class="gwrulers.CompProperties_AbilityEmperorLOTD" />
+        </comps>
+        
+        <targetRequired>True</targetRequired>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <!-- <label>Summon</label> -->
+            <!-- <hastarget>True</hastarget> -->
+            <!-- <targetWorldMap>False</targetWorldMap> -->
+            <range>80</range>
+            <warmupTime>0.25</warmupTime>
+            <!-- <burstShotCount>1</burstShotCount> -->
+            <soundCast>ChargeBlaster</soundCast> <!-- Placeholder sound -->
+            <requireLineOfSight>True</requireLineOfSight>
+            <targetParams>
+                <!-- <canTargetAnimals>False</canTargetAnimals> -->
+                <!-- <canTargetPawns>False</canTargetPawns> -->
+                <!-- <canTargetBuildings>False</canTargetBuildings> -->
+                <canTargetLocations>True</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+    </AbilityDef>
 </Defs>
