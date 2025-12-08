@@ -18,13 +18,13 @@
 	
 	<ThingDef ParentName="BenchBase">
 		<defName>GW_Autoforge</defName>
-		<label>Vulkan's Autoforge</label>
+		<label>Vulkan's Autoforge</label> 
 		<description>Fill this out sometime</description>
 		<!-- <thingClass>Building_WorkTableAutonomous</thingClass> -->
 		<graphicData>
 			<texPath>Things/Buildings/RotI_Forge</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3.5,3.5)</drawSize>
+			<drawSize>(5,5)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
