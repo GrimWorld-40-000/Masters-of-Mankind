@@ -32,7 +32,7 @@
 					<layer>75</layer> <!--70-77 is over helmet and under gun-->
 					<offset>(0,0.1,0)</offset>
 				</dataNorth>
-                <scale>1.0</scale>
+                <scale>0.9</scale>
                 <childScale>1.0</childScale>
             </drawData>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -114,7 +114,7 @@
 				<li>GW_CustodesGuard</li>
 			</tags>
 			<drawData>
-				<scale>1.1</scale>
+				<scale>1.0</scale>
             </drawData>
 		</apparel>
 		<comps>
@@ -170,7 +170,7 @@
 				<li>GW_CustodesGuard</li>
 			</tags>
 			<drawData>
-				<scale>1.1</scale>
+				<scale>1.0</scale>
             </drawData>
 		</apparel>
 		<comps>
@@ -216,7 +216,7 @@
 				<li>GW_Custodes</li>
 			</tags>
 			<drawData>
-				<scale>1.1</scale>
+				<scale>1.0</scale>
             </drawData>
 		</apparel>
 		<comps>
@@ -271,7 +271,7 @@
 				<li>GW_Custodes</li>
 			</tags>
 			<drawData>
-				<scale>1.1</scale>
+				<scale>1.0</scale>
             </drawData>
 		</apparel>
 		<comps>
