@@ -53,6 +53,7 @@
     <disallowedTraits>
       <li>Brawler</li>
     </disallowedTraits>
+    <biocodeWeaponChance>1.0</biocodeWeaponChance>
     <initialWillRange>4~6</initialWillRange>
     <initialResistanceRange>17~26</initialResistanceRange>
     <useFactionXenotypes>false</useFactionXenotypes>
