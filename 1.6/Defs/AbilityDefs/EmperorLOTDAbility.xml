@@ -17,62 +17,45 @@
 		<!-- <charges>1</charges> -->
         
     
-		<comps>
-			<li Class="gwrulers.CompProperties_AbilityEmperorLOTD"/>
-		</comps>
+        <comps>
+            <li Class="gwrulers.CompProperties_AbilityEmperorLOTD">
+              <psychicSensitivityExtraSummmonFactor>0.5</psychicSensitivityExtraSummmonFactor>  <!-- adds more pawns to summon for every additional 50% psychic sensitivity -->
+              <factionDef>Empire</factionDef>  <!-- the home faction of the summoned pawns. it being the empire is just placeholder -->
+              <pawnKindDef>LOTD</pawnKindDef>  <!-- the pawnkind of the summoned pawns -->
+            </li>
+            <li Class="CompProperties_AbilityEffecterOnTarget">
+              <effecterDef>Skip_Exit</effecterDef>
+              <maintainForTicks>60</maintainForTicks>
+              <scale>0.42</scale>
+            </li>
+            <li Class="CompProperties_AbilityFleckOnTarget">
+              <fleckDefs>
+                <li>PsycastSkipInnerExit</li>
+                <li>PsycastSkipOuterRingExit</li>
+              </fleckDefs>
+              <scale>0.42</scale>
+              <sound>Psycast_Skip_Exit</sound>
+              <preCastTicks>5</preCastTicks>
+            </li>
+        </comps>
         
-		<targetRequired>True</targetRequired>
-		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
-			<!-- <label>Summon</label> -->
-			<!-- <hastarget>True</hastarget> -->
-			<!-- <targetWorldMap>False</targetWorldMap> -->
-			<range>80</range>
-			<warmupTime>0.25</warmupTime>
-			<!-- <burstShotCount>1</burstShotCount> -->
-			<soundCast>ChargeBlaster</soundCast><!-- Placeholder sound -->
-			<requireLineOfSight>True</requireLineOfSight>
-			<targetParams>
-				<!-- <canTargetAnimals>False</canTargetAnimals> -->
-				<!-- <canTargetPawns>False</canTargetPawns> -->
-				<!-- <canTargetBuildings>False</canTargetBuildings> -->
-				<canTargetLocations>True</canTargetLocations>
-			</targetParams>
-		</verbProperties>
-	</AbilityDef>
-	
-	<AbilityDef>
-		<defName>GW_Ruler_MalcadorAbility</defName>
-		<label>mass consciousness down</label>
-		<description>WIP.</description>
-		<iconPath>Emperor/Headgear/GW_HRM_Emperor_LaurelsAura</iconPath>
-		<writeCombatLog>True</writeCombatLog>
-		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
-		<statBases>
-			<Ability_Duration>20</Ability_Duration>
-			<Ability_EffectRadius>6</Ability_EffectRadius>
-		</statBases>
-		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
-			<warmupTime>1</warmupTime>
-			<range>24.9</range>
-			<targetParams>
-				<canTargetSelf>True</canTargetSelf>
-				<canTargetAnimals>True</canTargetAnimals>
-				<canTargetLocations>True</canTargetLocations>
-			</targetParams>
-		</verbProperties>
-		<comps>
-			<li Class="CompProperties_AbilityGiveHediff">
-				<compClass>CompAbilityEffect_GiveHediff</compClass>
-				<hediffDef>GW_Ruler_MalcadorDebuff</hediffDef>
-				<durationMultiplier>PsychicSensitivity</durationMultiplier>
-				<goodwillImpact>-15</goodwillImpact>
-				<applyGoodwillImpactToLodgers>False</applyGoodwillImpactToLodgers>
-			</li>
-			<li Class="CompProperties_AbilityFleckOnTarget">
-				<fleckDef>PsycastPsychicEffect</fleckDef>
-			</li>
-		</comps>
-	</AbilityDef>
+        <targetRequired>True</targetRequired>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <!-- <label>Summon</label> -->
+            <!-- <hastarget>True</hastarget> -->
+            <!-- <targetWorldMap>False</targetWorldMap> -->
+            <range>80</range>
+            <warmupTime>0.25</warmupTime>
+            <!-- <burstShotCount>1</burstShotCount> -->
+            <soundCast>ChargeBlaster</soundCast> <!-- Placeholder sound -->
+            <requireLineOfSight>True</requireLineOfSight>
+            <targetParams>
+                <!-- <canTargetAnimals>False</canTargetAnimals> -->
+                <!-- <canTargetPawns>False</canTargetPawns> -->
+                <!-- <canTargetBuildings>False</canTargetBuildings> -->
+                <canTargetLocations>True</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+    </AbilityDef>
 </Defs>
