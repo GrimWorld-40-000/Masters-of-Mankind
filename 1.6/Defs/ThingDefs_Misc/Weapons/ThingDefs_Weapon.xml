@@ -720,11 +720,195 @@
             <li Class="CompProperties_Biocodable">
                 <biocodeOnEquip>True</biocodeOnEquip>
             </li>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Ranged</label>
+						<description>Swap to Ranged</description>
+						<texPath>Things/Weapons/GW_HRM_Malcador_Staff</texPath>
+						<weapon>GW_SM_Melee_MalcadorStaffRanged</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
             <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
         </comps>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>GW_SM_Melee_MalcadorStaffRanged</defName>
+		<label>Staff of Malcador(Ranged)</label>
+		<description>A masterfully-crafted staff symbolising high office, patterned after the staff of Malcador the Sigillite. As well as being ornate, it also makes for a surprisingly potent weapon in an emergency. \n\nIt is said that Malcador's staff could unleash a wave of nuclear hellfire at his command, but the man himself considered it a tool rather than a weapon.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapons/GW_HRM_Malcador_Staff</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.0</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<weaponTags Inherit="False">
+			<li>GW_EmperorWep</li>
+		</weaponTags>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>20</Crafting>
+				<Intellectual>15</Intellectual>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>GW_Autoforge</li>
+			</recipeUsers>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<ComponentSpacer>40</ComponentSpacer>
+			<ComponentIndustrial>75</ComponentIndustrial>
+			<GW_ComponentRelic>10</GW_ComponentRelic>
+			<Plasteel>1100</Plasteel>
+			<Steel>2000</Steel>
+			<Gold>80</Gold>
+			<HP_Ceramite>900</HP_Ceramite>
+			<HP_Adamantium>440</HP_Adamantium>
+			<HP_Auramite>300</HP_Auramite>
+		</costList>
+		<stuffCategories Inherit="False" IsNull="True" />
+		<costStuffCount />
+		<tradeability>Sellable</tradeability>
+		<uiIconScale>1.2</uiIconScale>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<statBases>
+			<MaxHitPoints>5000</MaxHitPoints>
+            <WorkToMake>9000</WorkToMake>
+            <Mass>12</Mass>
+			<MarketValue>4000</MarketValue>
+        </statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>0.50</MoveSpeed>
+			<Beauty>150</Beauty> 
+        </equippedStatOffsets>
+		<techLevel>Archotech</techLevel>
+		<relicChance>3</relicChance>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>Ultratech</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_Bullet_PsychicFlamer</defaultProjectile>
+				<range>25</range>
+				<soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<warmupTime>1.2</warmupTime>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>18</power>
+                <cooldownTime>2</cooldownTime>
+				<chanceFactor>0.07</chanceFactor>
+				<armorPenetration>0.17</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>10</amount>
+						<chance>0.2</chance>
+					</li>
+				</extraMeleeDamages>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>45</power>
+                <cooldownTime>2.5</cooldownTime>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetration>0.70</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>10</amount>
+						<chance>0.2</chance>
+					</li>
+				</extraMeleeDamages>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>42</power>
+                <cooldownTime>2.8</cooldownTime>
+				<chanceFactor>1</chanceFactor>
+				<armorPenetration>0.65</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>10</amount>
+						<chance>0.2</chance>
+					</li>
+				</extraMeleeDamages>
+            </li>
+		</tools>
+        <comps>
+            <li Class="CompProperties_Biocodable">
+                <biocodeOnEquip>True</biocodeOnEquip>
+            </li>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+				<weaponsToSwitch>
+					<li>
+						<label>Melee</label>
+						<description>Swap to Melee</description>
+						<texPath>Things/Weapons/GW_HRM_Malcador_Staff</texPath>
+						<weapon>GW_SM_Melee_MalcadorStaff</weapon>
+					</li>
+				</weaponsToSwitch>
+			</li>
+            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
+        </comps>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>GW_Bullet_PsychicFlamer</defName>
+		<label>flamer shot</label>
+		<thingClass>VEF.Weapons.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Projectiles/AMFlamer_Flame</texPath>
+			<texPathFadeOut>Projectiles/AMFlamer_End</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<speed>45</speed>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>9999</armorPenetrationBase>
+		</projectile>
+
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.85</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VEF.Weapons.ExpandableProjectileDef>
 	
 </Defs>
