@@ -20,7 +20,7 @@
         <comps>
             <li Class="gwrulers.CompProperties_AbilityEmperorLOTD">
               <psychicSensitivityExtraSummmonFactor>0.5</psychicSensitivityExtraSummmonFactor>  <!-- adds more pawns to summon for every additional 50% psychic sensitivity -->
-              <!-- <factionDef>Empire</factionDef>  the summons are just player faction -->
+              <factionDef>Empire</factionDef>  <!-- the home faction of the summoned pawns. it being the empire is just placeholder -->
               <pawnKindDef>LOTD</pawnKindDef>  <!-- the pawnkind of the summoned pawns -->
             </li>
             <li Class="CompProperties_AbilityEffecterOnTarget">

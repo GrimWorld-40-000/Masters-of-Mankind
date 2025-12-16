@@ -12,15 +12,6 @@
     <maxSeverity>1</maxSeverity>
 		<stages>
 			<li>
-        <disabledWorkTags>
-          <li>Caring</li>
-          <li>ManualDumb</li>
-          <li>Intellectual</li>
-          <li>ManualSkilled</li>
-          <li>Animals</li>
-          <li>Artistic</li>
-          <li>Social</li>
-        </disabledWorkTags>
         <!-- <becomeVisible>false</becomeVisible> -->
 			</li>
 		</stages>
@@ -43,15 +34,6 @@
     <maxSeverity>1</maxSeverity>
 		<stages>
 			<li>
-        <disabledWorkTags>
-          <li>Caring</li>
-          <li>ManualDumb</li>
-          <li>Intellectual</li>
-          <li>ManualSkilled</li>
-          <li>Animals</li>
-          <li>Artistic</li>
-          <li>Social</li>
-        </disabledWorkTags>
         <!-- <becomeVisible>false</becomeVisible> -->
 			</li>
 		</stages>
@@ -74,15 +56,6 @@
     <maxSeverity>1</maxSeverity>
 		<stages>
 			<li>
-        <disabledWorkTags>
-          <li>Caring</li>
-          <li>ManualDumb</li>
-          <li>Intellectual</li>
-          <li>ManualSkilled</li>
-          <li>Animals</li>
-          <li>Artistic</li>
-          <li>Social</li>
-        </disabledWorkTags>
         <!-- <becomeVisible>false</becomeVisible> -->
 			</li>
 		</stages>
