@@ -58,4 +58,39 @@
             </targetParams>
         </verbProperties>
     </AbilityDef>
+	
+	<AbilityDef>
+		<defName>GW_Ruler_MalcadorAbility</defName>
+		<label>mass consciousness down</label>
+		<description>WIP.</description>
+		<iconPath>Emperor/Headgear/GW_HRM_Emperor_LaurelsAura</iconPath>
+		<writeCombatLog>True</writeCombatLog>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<statBases>
+			<Ability_Duration>20</Ability_Duration>
+			<Ability_EffectRadius>6</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<targetParams>
+				<canTargetSelf>True</canTargetSelf>
+				<canTargetAnimals>True</canTargetAnimals>
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>GW_Ruler_MalcadorDebuff</hediffDef>
+				<durationMultiplier>PsychicSensitivity</durationMultiplier>
+				<goodwillImpact>-15</goodwillImpact>
+				<applyGoodwillImpactToLodgers>False</applyGoodwillImpactToLodgers>
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
 </Defs>
