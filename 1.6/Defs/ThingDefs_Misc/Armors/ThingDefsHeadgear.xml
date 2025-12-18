@@ -95,7 +95,7 @@
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<ComponentSpacer>5</ComponentSpacer>
 			<ComponentIndustrial>12</ComponentIndustrial>
 			<Plasteel>110</Plasteel>
@@ -115,7 +115,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
@@ -167,7 +167,7 @@
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<ComponentSpacer>5</ComponentSpacer>
 			<ComponentIndustrial>12</ComponentIndustrial>
 			<Plasteel>110</Plasteel>
@@ -187,7 +187,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li MayRequire="kentington.saveourship2">
@@ -230,7 +230,7 @@
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<ComponentSpacer>5</ComponentSpacer>
 			<ComponentIndustrial>12</ComponentIndustrial>
 			<Plasteel>110</Plasteel>
@@ -250,7 +250,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
@@ -302,7 +302,7 @@
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<ComponentSpacer>5</ComponentSpacer>
 			<ComponentIndustrial>12</ComponentIndustrial>
 			<Plasteel>110</Plasteel>
@@ -322,7 +322,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li MayRequire="kentington.saveourship2">
@@ -365,7 +365,7 @@
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<ComponentSpacer>5</ComponentSpacer>
 			<ComponentIndustrial>12</ComponentIndustrial>
 			<Plasteel>110</Plasteel>
@@ -385,13 +385,235 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li MayRequire="kentington.saveourship2">
 				<compClass>SaveOurShip2.CompEVA</compClass>
 			</li>
 		</comps>
+	</ThingDef>
+	
+	<ThingDef Abstract="true" Name="GW_RulersAOD_HelmetBase" ParentName="ArmorHelmetMakeableBase">
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>GW_Autoforge</li>
+			</recipeUsers>
+		</recipeMaker>
+		<uiIconScale>1.0</uiIconScale>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.3</VacuumResistance>
+		</equippedStatOffsets>
+		<tradeTags>
+			<li>HPHelmet</li>
+		</tradeTags>
+		<apparel>
+			<tags>
+				<li>Spacer</li>
+				<li>EVA</li>
+			</tags>
+			<drawData>
+				<!--<scale>1.5</scale> Uncomment these to increase size while equipped
+                <childScale>1.5</childScale>-->
+			</drawData>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>EyeCover</li>
+				<li MayRequire="ceteam.combatextended">StrappedHead</li>
+				<li MayRequire="ceteam.combatextended">OnHead</li>
+				<li>Overhead</li> <!--Needs to be last for the tool to properly label this a helmet-->
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
+		<defName>GW_SM_FirstbornHelmet</defName>
+		<label>Firstborn helmet</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>LegionOfTheDamned/Firstborn/Shell/LOTDFirstBornHelmet</texPath>
+		</graphicData>
+		<uiIconPath>LegionOfTheDamned/Firstborn/Shell/LOTDFirstBornHelmet</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Firstborn</li>
+			</tags>
+			<wornGraphicPath>LegionOfTheDamned/Firstborn/LOTDFirstBorn_Brother</wornGraphicPath>
+		</apparel>
+		<comps />
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Mass>2</Mass>
+			<MarketValue>600</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
+		<defName>GW_Rulers_PrimarisHelmet</defName>
+		<label>Primaris helmet</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>LegionOfTheDamned/Primaris/Shell/LOTDPrimarisHelmet</texPath>
+		</graphicData>
+		<uiIconPath>LegionOfTheDamned/Primaris/Shell/LOTDPrimarisHelmet</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Primaris</li>
+			</tags>
+			<wornGraphicPath>LegionOfTheDamned/Primaris/HeadGear/LOTDPrimarisHelmet</wornGraphicPath>
+		</apparel>
+		<comps />
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Mass>2</Mass>
+			<MarketValue>600</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
+		<defName>GW_Rulers_PrimarisTenatHelmet</defName>
+		<label>Primaris helmet(Lieutenant)</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>LegionOfTheDamned/Primaris/Shell/LOTD_PrimarisLieutenat</texPath>
+		</graphicData>
+		<uiIconPath>LegionOfTheDamned/Primaris/Shell/LOTD_PrimarisLieutenat</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Primaris</li>
+			</tags>
+			<wornGraphicPath>LegionOfTheDamned/Primaris/HeadGear/LOTD_PrimarisLieutenat</wornGraphicPath>
+		</apparel>
+		<comps />
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Mass>2</Mass>
+			<MarketValue>600</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
+		<defName>GW_Rulers_GravisHelmet</defName>
+		<label>Gravis helmet</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>LegionOfTheDamned/Gravis/Shell/LOTDGravisHelmet</texPath>
+		</graphicData>
+		<uiIconPath>LegionOfTheDamned/Gravis/Shell/LOTDGravisHelmet</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Primaris</li>
+			</tags>
+			<wornGraphicPath>LegionOfTheDamned/Gravis/HeadGear1/LOTDGravisHelmet</wornGraphicPath>
+		</apparel>
+		<comps />
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Mass>2</Mass>
+			<MarketValue>600</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+		</recipeMaker>
 	</ThingDef>
 
 </Defs>

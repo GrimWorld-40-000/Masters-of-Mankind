@@ -101,7 +101,7 @@
 			<PainShockThreshold>0.05</PainShockThreshold>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>190</Plasteel>
 			<Steel>240</Steel>
 			<HP_Ceramite>140</HP_Ceramite>
@@ -157,7 +157,7 @@
 			<PainShockThreshold>0.05</PainShockThreshold>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>190</Plasteel>
 			<Steel>240</Steel>
 			<HP_Ceramite>140</HP_Ceramite>
@@ -204,7 +204,7 @@
 			<PainShockThreshold>0.05</PainShockThreshold>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>190</Plasteel>
 			<Steel>240</Steel>
 			<HP_Ceramite>140</HP_Ceramite>
@@ -259,7 +259,7 @@
 			<PainShockThreshold>0.05</PainShockThreshold>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>190</Plasteel>
 			<Steel>240</Steel>
 			<HP_Ceramite>140</HP_Ceramite>

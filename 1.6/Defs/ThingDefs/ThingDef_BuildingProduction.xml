@@ -84,7 +84,7 @@
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
-			<li>Machining</li>
+			<li>GW_Rulers_MasterForge</li>
 		</researchPrerequisites>
 		<designationHotKey>Misc7</designationHotKey>
 		<placeWorkers>

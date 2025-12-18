@@ -104,7 +104,7 @@
 			<texPath>Emperor/GW_HRM_Emperor_ArmorW_south</texPath>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
 			<InjuryHealingFactor>4</InjuryHealingFactor>
@@ -127,7 +127,7 @@
 		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>350</Plasteel>
 			<HP_Ceramite>200</HP_Ceramite>
 			<HP_Adamantium>110</HP_Adamantium>
@@ -170,7 +170,7 @@
 			<texPath>Emperor/GW_HRM_Emperor_ArmorC_south</texPath>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
 			<InjuryHealingFactor>4</InjuryHealingFactor>
@@ -193,7 +193,7 @@
 		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>350</Plasteel>
 			<HP_Ceramite>200</HP_Ceramite>
 			<HP_Adamantium>110</HP_Adamantium>
@@ -227,7 +227,7 @@
 			<texPath>Valdor/GW_HRM_Valdor_ArmorW_south</texPath>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
 			<InjuryHealingFactor>4</InjuryHealingFactor>
@@ -250,7 +250,7 @@
 		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>350</Plasteel>
 			<HP_Ceramite>200</HP_Ceramite>
 			<HP_Adamantium>110</HP_Adamantium>
@@ -304,7 +304,7 @@
 			<texPath>Valdor/GW_HRM_Valdor_ArmorC_south</texPath>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
 			<InjuryHealingFactor>4</InjuryHealingFactor>
@@ -329,7 +329,7 @@
 		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>350</Plasteel>
 			<HP_Ceramite>200</HP_Ceramite>
 			<HP_Adamantium>110</HP_Adamantium>
@@ -374,7 +374,7 @@
 			<texPath>Malcador/Apparel/GW_HRM_MalcadorRobe_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
 			<InjuryHealingFactor>4</InjuryHealingFactor>
@@ -397,7 +397,7 @@
 		<tickerType>Normal</tickerType> 
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_Template>1</GW_Ruler_Template>
+			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
 			<Plasteel>350</Plasteel>
 			<HP_Ceramite>200</HP_Ceramite>
 			<HP_Adamantium>110</HP_Adamantium>
@@ -443,7 +443,7 @@
 	
 	
 	
-	<ThingDef Abstract="true" Name="GW_SM_ArmorBase" ParentName="ArmorMachineableBase">
+	<ThingDef Abstract="true" Name="GW_RulersAOD_ArmorBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -508,15 +508,6 @@
 			</defaultOutfitTags>
 		</apparel>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>4</maskCount>
-                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
-                <defaultPalette>
-                    <colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-                </defaultPalette>
-            </li>
         </comps>
 	    <modExtensions>
 			<li Class="VEF.Apparels.ApparelExtension">
@@ -541,16 +532,95 @@
             </li>
 	    </modExtensions>
     </ThingDef>
-
-
-
-
-	<ThingDef Name="GW_SM_GravisArmorBase" ParentName="GW_SM_ArmorBase">
-        <defName>GW_HRM_LOTD</defName>
-		<label>Gravis power armor (Lotd)</label>
-        	<description>A heavyweight suit of Power Armor, of the Mk X Gravis pattern. A cut above standard Tacticus armor, it allows the wearer to take more fire than normal while responding in kind. \n\nThe heavyweight Aggressors, the plasma-wielding Eradicators, and some officers of the Primaris Space Marines all wear this armor. Inceptors, wearing jump-packs, also use this armor to great effect, compensating for lower mobility with the power to leap long distances.</description>
+	
+	<ThingDef ParentName="GW_RulersAOD_ArmorBase">
+        <defName>GW_Rulers_FirstbornArmor</defName>
+		<label>Firstborn armor</label>
+        	<description>WIP.</description>
 		<graphicData>
-			<texPath>Firstborn/Shell/LOTDFirstBorn</texPath>
+			<texPath>LegionOfTheDamned/Firstborn/Shell/LOTDFirstBorn</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>Fabrication</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>72000</WorkToMake>
+			<MaxHitPoints>480</MaxHitPoints>
+			<MarketValue>1700</MarketValue>
+			<Mass>9</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>.58</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>160</Plasteel>
+			<HP_Ceramite>120</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>LegionOfTheDamned/Firstborn/LOTDFirstBorn_Brother</wornGraphicPath>
+			<tags>
+                <li>GW_Firstborn</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="GW_RulersAOD_ArmorBase">
+        <defName>GW_Rulers_PrimarisArmor</defName>
+		<label>Primaris armor</label>
+        	<description>WIP</description>
+		<graphicData>
+			<texPath>LegionOfTheDamned/Primaris/Shell/LOTDPrimaris</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>Fabrication</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>72000</WorkToMake>
+			<MaxHitPoints>480</MaxHitPoints>
+			<MarketValue>1700</MarketValue>
+			<Mass>9</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>.58</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>160</Plasteel>
+			<HP_Ceramite>120</HP_Ceramite>
+		</costList>
+		<comps />
+		<apparel>
+            <wornGraphicPath>LegionOfTheDamned/Primaris/LOTDPrimaris_Brother</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<tags>
+                <li>GW_Primaris</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="GW_RulersAOD_ArmorBase">
+        <defName>GW_Rulers_GravisArmor</defName>
+		<label>Gravis power armor</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>LegionOfTheDamned/Gravis/Shell/LOTDGravis</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>Fabrication</researchPrerequisite>
@@ -586,9 +656,8 @@
 					<layer>70</layer>
 				</dataEast>
             </drawData>
-            <wornGraphicPath>Firstborn/LOTDFirstBorn_Brother</wornGraphicPath>
+            <wornGraphicPath>LegionOfTheDamned/Gravis/LOTDGravis_Brother</wornGraphicPath>
 			<tags>
-				<li>PrestigeCombatGear</li>
                 <li>GW_Gravis</li>
 			</tags>
 		</apparel>

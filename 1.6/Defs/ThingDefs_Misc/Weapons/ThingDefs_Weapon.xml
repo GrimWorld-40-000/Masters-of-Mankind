@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <!--Melee weapons-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -231,6 +230,7 @@
 			<drawSize>1.0</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+        <equippedAngleOffset>-90</equippedAngleOffset>
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 		</weaponTags>
@@ -243,7 +243,7 @@
 			<recipeUsers Inherit="false">
 				<li>GW_Autoforge</li>
 			</recipeUsers>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
@@ -344,7 +344,7 @@
 			<recipeUsers Inherit="false">
 				<li>GW_Autoforge</li>
 			</recipeUsers>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
@@ -470,17 +470,7 @@
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 		</weaponTags>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-				<Intellectual>15</Intellectual>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-		</recipeMaker>
+		<!-- <recipeMaker Inherit="False" IsNull="True" /> -->
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>75</ComponentIndustrial>
@@ -628,7 +618,7 @@
 			<recipeUsers Inherit="false">
 				<li>GW_Autoforge</li>
 			</recipeUsers>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
@@ -751,17 +741,7 @@
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 		</weaponTags>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-				<Intellectual>15</Intellectual>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-		</recipeMaker>
+		<!-- <recipeMaker Inherit="False" IsNull="True" /> -->
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>75</ComponentIndustrial>

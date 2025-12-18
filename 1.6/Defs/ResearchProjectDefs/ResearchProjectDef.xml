@@ -1,0 +1,95 @@
+<Defs>
+
+	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
+		<defName>GW_Rulers_MasterForge</defName>
+		<label>master of mankine forge</label>
+        <description>WIP.</description>
+		<prerequisites>
+			<li>GW_Cogitator</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+        <baseCost>8000</baseCost>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_Ruler_GoldenSTC</StudyObject>
+                        <NumberRequired>1</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
+		<defName>GW_Rulers_OneTrueArmor</defName>
+		<label>one true armor</label>
+        <description>WIP.</description>
+		<prerequisites>
+			<li>GW_Rulers_MasterForge</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+        <baseCost>8000</baseCost>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_Ruler_GoldenSTC</StudyObject>
+                        <NumberRequired>1</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
+		<defName>GW_Rulers_FirstCaptainr</defName>
+		<label>first capitan general</label>
+        <description>WIP.</description>
+		<prerequisites>
+			<li>GW_Rulers_MasterForge</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+        <baseCost>8000</baseCost>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_Ruler_GoldenSTC</StudyObject>
+                        <NumberRequired>1</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
+		<defName>GW_Rulers_EmperorRightHand</defName>
+		<label>emperor's right hand</label>
+        <description>WIP.</description>
+		<prerequisites>
+			<li>GW_Rulers_MasterForge</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+        <baseCost>8000</baseCost>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_Ruler_GoldenSTC</StudyObject>
+                        <NumberRequired>1</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+</Defs>
