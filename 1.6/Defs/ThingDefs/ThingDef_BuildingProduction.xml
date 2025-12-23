@@ -36,13 +36,15 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<statBases>
-			<WorkToBuild>3000</WorkToBuild>
+			<WorkToBuild>35000</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Cleanliness>0</Cleanliness>
 		</statBases>
 		<costList>
-			<Steel>150</Steel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>100</HP_Ceramite>
+			<GW_Ruler_GoldenSTC>8</GW_Ruler_GoldenSTC>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>

@@ -89,28 +89,28 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<InjuryHealingFactor>0.5</InjuryHealingFactor>
+			<PsychicSensitivity>0.5</PsychicSensitivity>
 			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<ComponentSpacer>5</ComponentSpacer>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<Plasteel>110</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>			
-			<HP_Auramite>10</HP_Auramite>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Plasteel>125</Plasteel>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<MaxHitPoints>650</MaxHitPoints>
-			<MarketValue>1000</MarketValue>
-			<Mass>2</Mass>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.70</ArmorRating_Heat>
-			<Insulation_Cold>8</Insulation_Cold>
+			<WorkToMake>240000</WorkToMake>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<MarketValue>7800</MarketValue>
+			<Mass>11</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
@@ -161,28 +161,28 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<InjuryHealingFactor>0.5</InjuryHealingFactor>
+			<PsychicSensitivity>0.5</PsychicSensitivity>
 			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<ComponentSpacer>5</ComponentSpacer>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<Plasteel>110</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>			
-			<HP_Auramite>10</HP_Auramite>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Plasteel>125</Plasteel>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<MaxHitPoints>650</MaxHitPoints>
-			<MarketValue>1000</MarketValue>
-			<Mass>2</Mass>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.70</ArmorRating_Heat>
-			<Insulation_Cold>8</Insulation_Cold>
+			<WorkToMake>240000</WorkToMake>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<MarketValue>7800</MarketValue>
+			<Mass>11</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
@@ -224,28 +224,28 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<MeleeHitChance>1</MeleeHitChance>
+			<RangedCooldownFactor>-0.2</RangedCooldownFactor>
 			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<ComponentSpacer>5</ComponentSpacer>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<Plasteel>110</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>			
-			<HP_Auramite>10</HP_Auramite>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Plasteel>125</Plasteel>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<MaxHitPoints>650</MaxHitPoints>
-			<MarketValue>1000</MarketValue>
-			<Mass>2</Mass>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.70</ArmorRating_Heat>
-			<Insulation_Cold>8</Insulation_Cold>
+			<WorkToMake>240000</WorkToMake>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<MarketValue>7800</MarketValue>
+			<Mass>11</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
@@ -296,28 +296,28 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<MeleeHitChance>1</MeleeHitChance>
+			<RangedCooldownFactor>-0.2</RangedCooldownFactor>
 			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<ComponentSpacer>5</ComponentSpacer>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<Plasteel>110</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>			
-			<HP_Auramite>10</HP_Auramite>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Plasteel>125</Plasteel>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<MaxHitPoints>650</MaxHitPoints>
-			<MarketValue>1000</MarketValue>
-			<Mass>2</Mass>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.70</ArmorRating_Heat>
-			<Insulation_Cold>8</Insulation_Cold>
+			<WorkToMake>240000</WorkToMake>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<MarketValue>7800</MarketValue>
+			<Mass>11</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
@@ -359,31 +359,31 @@
 			</drawData>
 		</apparel>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<SocialImpact>0.5</SocialImpact>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
 			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
-		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<ComponentSpacer>5</ComponentSpacer>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<Plasteel>110</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>			
-			<HP_Auramite>10</HP_Auramite>
-		</costList>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<MaxHitPoints>650</MaxHitPoints>
-			<MarketValue>1000</MarketValue>
-			<Mass>2</Mass>
-			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.70</ArmorRating_Heat>
-			<Insulation_Cold>8</Insulation_Cold>
-			<Insulation_Heat>4</Insulation_Heat>
+			<WorkToMake>240000</WorkToMake>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<MarketValue>7800</MarketValue>
+			<Mass>11</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<tickerType>Normal</tickerType> 
+		<costList>
+			<GW_Ruler_GoldenSTC>3</GW_Ruler_GoldenSTC>
+			<Hyperweave>80</Hyperweave>
+			<HP_Auramite>50</HP_Auramite>
+		</costList>
 		<recipeMaker>
 			<researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite>
 		</recipeMaker>

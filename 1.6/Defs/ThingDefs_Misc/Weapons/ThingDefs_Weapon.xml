@@ -1,39 +1,39 @@
 <Defs>
-    <!--Melee weapons-->
+	<!--Melee weapons-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SS_LionSword</defName>
 		<label>Fealty</label>
-        <description>A mysterious power sword wielded by Lion El'Jonson upon his return in the 41st Millennium. Drawn from the stones of Mirror-Caliban, this blade stops for no opponent - no traitor, no xenos, and no daemon.\n\nMirror-Caliban appears as a forest without end, inhabited by Watchers in the Dark (the diminutive servants of the Dark Angels) and Great Beasts of Caliban. The Lion discovered Fealty and the Emperor's Shield within the realm, and was able to use it as a passageway through space.\n\nLike its wielder, however, this Fealty is a replica, well-crafted as it is.</description>
-        <graphicData>
-            <texPath>Things/Weapons/GW_LionSword</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+		<description>A mysterious power sword wielded by Lion El'Jonson upon his return in the 41st Millennium. Drawn from the stones of Mirror-Caliban, this blade stops for no opponent - no traitor, no xenos, and no daemon.\n\nMirror-Caliban appears as a forest without end, inhabited by Watchers in the Dark (the diminutive servants of the Dark Angels) and Great Beasts of Caliban. The Lion discovered Fealty and the Emperor's Shield within the realm, and was able to use it as a passageway through space.\n\nLike its wielder, however, this Fealty is a replica, well-crafted as it is.</description>
+		<graphicData>
+			<texPath>Things/Weapons/GW_LionSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-            <drawSize>1.0</drawSize>
+			<drawSize>1.0</drawSize>
 			<onGroundRandomRotateAngle>55</onGroundRandomRotateAngle>
-        </graphicData>
+		</graphicData>
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 			<li>GW_LionSword</li>
 		</weaponTags>
 		<uiIconPath>Things/Weapons/GW_LionSword</uiIconPath>
-        <techLevel>Spacer</techLevel>
-        <tradeability>Sellable</tradeability>
-        <generateCommonality>0.01</generateCommonality>
-        <statBases>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.01</generateCommonality>
+		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-            <WorkToMake>9000</WorkToMake>
-            <Mass>4</Mass>
+			<WorkToMake>240000</WorkToMake>
+			<Mass>4</Mass>
 			<MarketValue>4000</MarketValue>
-        </statBases>
+		</statBases>
 		<equippedStatOffsets>
 			<MeleeHitChance>1</MeleeHitChance>
-        </equippedStatOffsets>
+		</equippedStatOffsets>
 		<relicChance>1</relicChance>
 		<thingSetMakerTags>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
-        <equippedAngleOffset>0</equippedAngleOffset>
-        <recipeMaker>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<recipeMaker>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>20</Crafting>
@@ -55,47 +55,47 @@
 			<HP_Adamantium>440</HP_Adamantium>
 			<HP_Auramite>300</HP_Auramite>
 		</costList>
-		<stuffCategories IsNull="True" />
-		<costStuffCount Inherit="False" />
-        <tools>
-            <li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
+		<stuffCategories IsNull="True"/>
+		<costStuffCount Inherit="False"/>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>0.07</chanceFactor>
 				<armorPenetration>0.17</armorPenetration>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>50</power>
-                <cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>2.8</cooldownTime>
 				<chanceFactor>0.5</chanceFactor>
 				<armorPenetration>0.85</armorPenetration>
-            </li>
-            <li>
-                <label>edge</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>46</power>
-                <cooldownTime>3.0</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>46</power>
+				<cooldownTime>3.0</cooldownTime>
 				<chanceFactor>1</chanceFactor>
 				<armorPenetration>0.8</armorPenetration>
-            </li>
-        </tools>
-        <comps>
-            <li Class="CompProperties_Biocodable">
-                <biocodeOnEquip>True</biocodeOnEquip>
-            </li>
-            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
-        </comps>
-    </ThingDef>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
+		</comps>
+	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_FlameSword</defName>
@@ -134,22 +134,22 @@
 			<HP_Adamantium>440</HP_Adamantium>
 			<HP_Auramite>300</HP_Auramite>
 		</costList>
-		<stuffCategories Inherit="False" IsNull="True" />
-		<costStuffCount />
+		<stuffCategories Inherit="False" IsNull="True"/>
+		<costStuffCount/>
 		<tradeability>Sellable</tradeability>
 		<uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-            <WorkToMake>9000</WorkToMake>
-            <Mass>12</Mass>
+			<WorkToMake>240000</WorkToMake>
+			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
-        </statBases>
+		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.50</MoveSpeed>
-			<Beauty>150</Beauty> 
-        </equippedStatOffsets>
+			<MoveSpeed>0.50</MoveSpeed>
+			<Beauty>150</Beauty>
+		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
 		<weaponClasses>
@@ -158,12 +158,12 @@
 		</weaponClasses>
 		<tools>
 			<li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>0.07</chanceFactor>
 				<armorPenetration>0.17</armorPenetration>
 				<extraMeleeDamages>
@@ -173,14 +173,14 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>45</power>
-                <cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>2.5</cooldownTime>
 				<chanceFactor>0.5</chanceFactor>
 				<armorPenetration>0.70</armorPenetration>
 				<extraMeleeDamages>
@@ -190,14 +190,14 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>edge</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>42</power>
-                <cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>42</power>
+				<cooldownTime>2.8</cooldownTime>
 				<chanceFactor>1</chanceFactor>
 				<armorPenetration>0.65</armorPenetration>
 				<extraMeleeDamages>
@@ -207,14 +207,14 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
+			</li>
 		</tools>
-        <comps>
-            <li Class="CompProperties_Biocodable">
-                <biocodeOnEquip>True</biocodeOnEquip>
-            </li>
-            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
-        </comps>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
+		</comps>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
@@ -230,7 +230,7 @@
 			<drawSize>1.0</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-        <equippedAngleOffset>-90</equippedAngleOffset>
+		<equippedAngleOffset>-90</equippedAngleOffset>
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 		</weaponTags>
@@ -256,22 +256,22 @@
 			<HP_Adamantium>440</HP_Adamantium>
 			<HP_Auramite>300</HP_Auramite>
 		</costList>
-		<stuffCategories Inherit="False" IsNull="True" />
-		<costStuffCount />
+		<stuffCategories Inherit="False" IsNull="True"/>
+		<costStuffCount/>
 		<tradeability>Sellable</tradeability>
 		<uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-            <WorkToMake>9000</WorkToMake>
-            <Mass>12</Mass>
+			<WorkToMake>240000</WorkToMake>
+			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
-        </statBases>
+		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.50</MoveSpeed>
-			<Beauty>150</Beauty> 
-        </equippedStatOffsets>
+			<MoveSpeed>0.50</MoveSpeed>
+			<Beauty>150</Beauty>
+		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
 		<weaponClasses>
@@ -280,42 +280,42 @@
 		</weaponClasses>
 		<tools>
 			<li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>0.07</chanceFactor>
 				<armorPenetration>0.17</armorPenetration>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>45</power>
-                <cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>2.5</cooldownTime>
 				<chanceFactor>0.5</chanceFactor>
 				<armorPenetration>0.70</armorPenetration>
-            </li>
-            <li>
-                <label>edge</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>42</power>
-                <cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>42</power>
+				<cooldownTime>2.8</cooldownTime>
 				<chanceFactor>1</chanceFactor>
 				<armorPenetration>0.65</armorPenetration>
-            </li>
+			</li>
 		</tools>
-        <comps>
-            <li Class="CompProperties_Biocodable">
-                <biocodeOnEquip>True</biocodeOnEquip>
-            </li>
-            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
-        </comps>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
+		</comps>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
@@ -357,22 +357,22 @@
 			<HP_Adamantium>440</HP_Adamantium>
 			<HP_Auramite>300</HP_Auramite>
 		</costList>
-		<stuffCategories Inherit="False" IsNull="True" />
-		<costStuffCount />
+		<stuffCategories Inherit="False" IsNull="True"/>
+		<costStuffCount/>
 		<tradeability>Sellable</tradeability>
 		<uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-            <WorkToMake>9000</WorkToMake>
-            <Mass>12</Mass>
+			<WorkToMake>240000</WorkToMake>
+			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
-        </statBases>
+		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.50</MoveSpeed>
-			<Beauty>150</Beauty> 
-        </equippedStatOffsets>
+			<MoveSpeed>0.50</MoveSpeed>
+			<Beauty>150</Beauty>
+		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
 		<weaponClasses>
@@ -381,61 +381,40 @@
 		</weaponClasses>
 		<tools>
 			<li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>0.07</chanceFactor>
 				<armorPenetration>0.17</armorPenetration>
-				<extraMeleeDamages>
-					<li>
-						<def>Flame</def>
-						<amount>10</amount>
-						<chance>0.2</chance>
-					</li>
-				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>45</power>
-                <cooldownTime>2.5</cooldownTime>
-				<chanceFactor>0.5</chanceFactor>
-				<armorPenetration>0.70</armorPenetration>
-				<extraMeleeDamages>
-					<li>
-						<def>Flame</def>
-						<amount>10</amount>
-						<chance>0.2</chance>
-					</li>
-				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>edge</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>42</power>
-                <cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>38</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>1</chanceFactor>
-				<armorPenetration>0.65</armorPenetration>
-				<extraMeleeDamages>
-					<li>
-						<def>Flame</def>
-						<amount>10</amount>
-						<chance>0.2</chance>
-					</li>
-				</extraMeleeDamages>
-            </li>
+				<armorPenetration>0.9</armorPenetration>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>36</power>
+				<cooldownTime>2</cooldownTime>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetration>0.8</armorPenetration>
+			</li>
 		</tools>
-        <comps>
-            <li Class="CompProperties_Biocodable">
-                <biocodeOnEquip>True</biocodeOnEquip>
-            </li>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
 			<li Class="XpDrain.CompProperties_EquippableGiveHediff">
 				<hediffDef>GW_Ruler_ValdorSpearXpDrain</hediffDef>
 			</li>
@@ -449,8 +428,8 @@
 					</li>
 				</weaponsToSwitch>
 			</li>
-            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
-        </comps>
+			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
+		</comps>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
@@ -482,22 +461,27 @@
 			<HP_Adamantium>440</HP_Adamantium>
 			<HP_Auramite>300</HP_Auramite>
 		</costList>
-		<stuffCategories Inherit="False" IsNull="True" />
-		<costStuffCount />
+		<stuffCategories Inherit="False" IsNull="True"/>
+		<costStuffCount/>
 		<tradeability>Sellable</tradeability>
 		<uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-            <WorkToMake>9000</WorkToMake>
-            <Mass>12</Mass>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
-        </statBases>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.50</MoveSpeed>
-			<Beauty>150</Beauty> 
-        </equippedStatOffsets>
+			<MoveSpeed>0.50</MoveSpeed>
+			<Beauty>150</Beauty>
+		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
 		<weaponClasses>
@@ -508,7 +492,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_Bullet_HeavyBolter</defaultProjectile>
+				<defaultProjectile>GW_Rulers_GuardianSpearBolterProjectile</defaultProjectile>
 				<range>25</range>
 				<soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
 				<burstShotCount>3</burstShotCount>
@@ -520,61 +504,40 @@
 		</verbs>
 		<tools>
 			<li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>0.07</chanceFactor>
 				<armorPenetration>0.17</armorPenetration>
-				<extraMeleeDamages>
-					<li>
-						<def>Flame</def>
-						<amount>10</amount>
-						<chance>0.2</chance>
-					</li>
-				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>45</power>
-                <cooldownTime>2.5</cooldownTime>
-				<chanceFactor>0.5</chanceFactor>
-				<armorPenetration>0.70</armorPenetration>
-				<extraMeleeDamages>
-					<li>
-						<def>Flame</def>
-						<amount>10</amount>
-						<chance>0.2</chance>
-					</li>
-				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>edge</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>42</power>
-                <cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>38</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>1</chanceFactor>
-				<armorPenetration>0.65</armorPenetration>
-				<extraMeleeDamages>
-					<li>
-						<def>Flame</def>
-						<amount>10</amount>
-						<chance>0.2</chance>
-					</li>
-				</extraMeleeDamages>
-            </li>
+				<armorPenetration>0.9</armorPenetration>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>36</power>
+				<cooldownTime>2</cooldownTime>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetration>0.8</armorPenetration>
+			</li>
 		</tools>
-        <comps>
-            <li Class="CompProperties_Biocodable">
-                <biocodeOnEquip>True</biocodeOnEquip>
-            </li>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
 			<li Class="XpDrain.CompProperties_EquippableGiveHediff">
 				<hediffDef>GW_Ruler_ValdorSpearXpDrain</hediffDef>
 			</li>
@@ -588,11 +551,27 @@
 					</li>
 				</weaponsToSwitch>
 			</li>
-            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
-        </comps>
+			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
+		</comps>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_Rulers_GuardianSpearBolterProjectile</defName>
+		<label>Guardian Spear bolt</label>
+		<graphicData>
+			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.8</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>25</damageAmountBase>
+			<stoppingPower>0.8</stoppingPower>
+			<armorPenetrationBase>0.38</armorPenetrationBase>
+			<speed>70</speed>
+		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -631,22 +610,22 @@
 			<HP_Adamantium>440</HP_Adamantium>
 			<HP_Auramite>300</HP_Auramite>
 		</costList>
-		<stuffCategories Inherit="False" IsNull="True" />
-		<costStuffCount />
+		<stuffCategories Inherit="False" IsNull="True"/>
+		<costStuffCount/>
 		<tradeability>Sellable</tradeability>
 		<uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-            <WorkToMake>9000</WorkToMake>
-            <Mass>12</Mass>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
-        </statBases>
+		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.50</MoveSpeed>
-			<Beauty>150</Beauty> 
-        </equippedStatOffsets>
+			<MoveSpeed>0.50</MoveSpeed>
+			<Beauty>150</Beauty>
+		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
 		<weaponClasses>
@@ -655,12 +634,12 @@
 		</weaponClasses>
 		<tools>
 			<li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>0.07</chanceFactor>
 				<armorPenetration>0.17</armorPenetration>
 				<extraMeleeDamages>
@@ -670,14 +649,14 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>45</power>
-                <cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>2.5</cooldownTime>
 				<chanceFactor>0.5</chanceFactor>
 				<armorPenetration>0.70</armorPenetration>
 				<extraMeleeDamages>
@@ -687,14 +666,14 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>edge</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>42</power>
-                <cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>42</power>
+				<cooldownTime>2.8</cooldownTime>
 				<chanceFactor>1</chanceFactor>
 				<armorPenetration>0.65</armorPenetration>
 				<extraMeleeDamages>
@@ -704,12 +683,12 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
+			</li>
 		</tools>
-        <comps>
-            <li Class="CompProperties_Biocodable">
-                <biocodeOnEquip>True</biocodeOnEquip>
-            </li>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
 					<li>
@@ -720,8 +699,8 @@
 					</li>
 				</weaponsToSwitch>
 			</li>
-            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
-        </comps>
+			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
+		</comps>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
@@ -753,22 +732,22 @@
 			<HP_Adamantium>440</HP_Adamantium>
 			<HP_Auramite>300</HP_Auramite>
 		</costList>
-		<stuffCategories Inherit="False" IsNull="True" />
-		<costStuffCount />
+		<stuffCategories Inherit="False" IsNull="True"/>
+		<costStuffCount/>
 		<tradeability>Sellable</tradeability>
 		<uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
-            <WorkToMake>9000</WorkToMake>
-            <Mass>12</Mass>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
-        </statBases>
+		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.50</MoveSpeed>
-			<Beauty>150</Beauty> 
-        </equippedStatOffsets>
+			<MoveSpeed>0.50</MoveSpeed>
+			<Beauty>150</Beauty>
+		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
 		<weaponClasses>
@@ -779,11 +758,12 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_Bullet_PsychicFlamer</defaultProjectile>
-				<range>25</range>
+				<defaultProjectile>GW_Bullet_flamer</defaultProjectile>
+				<range>20</range>
 				<soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<warmupTime>1.2</warmupTime>
@@ -791,12 +771,12 @@
 		</verbs>
 		<tools>
 			<li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
 				<chanceFactor>0.07</chanceFactor>
 				<armorPenetration>0.17</armorPenetration>
 				<extraMeleeDamages>
@@ -806,14 +786,14 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>45</power>
-                <cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>2.5</cooldownTime>
 				<chanceFactor>0.5</chanceFactor>
 				<armorPenetration>0.70</armorPenetration>
 				<extraMeleeDamages>
@@ -823,14 +803,14 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
-            <li>
-                <label>edge</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>42</power>
-                <cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>42</power>
+				<cooldownTime>2.8</cooldownTime>
 				<chanceFactor>1</chanceFactor>
 				<armorPenetration>0.65</armorPenetration>
 				<extraMeleeDamages>
@@ -840,12 +820,12 @@
 						<chance>0.2</chance>
 					</li>
 				</extraMeleeDamages>
-            </li>
+			</li>
 		</tools>
-        <comps>
-            <li Class="CompProperties_Biocodable">
-                <biocodeOnEquip>True</biocodeOnEquip>
-            </li>
+		<comps>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
 			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
 				<weaponsToSwitch>
 					<li>
@@ -856,8 +836,8 @@
 					</li>
 				</weaponsToSwitch>
 			</li>
-            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
-        </comps>
+			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
+		</comps>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>

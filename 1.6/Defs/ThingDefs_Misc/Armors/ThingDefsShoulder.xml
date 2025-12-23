@@ -82,30 +82,30 @@
 			<texPath>Emperor/Shoulders/GW_HRM_Emperor_ShouldersW</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>Fabrication</researchPrerequisite>
+            <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
-			<MarketValue>700</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.32</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.45</ArmorRating_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PainShockThreshold>0.2</PainShockThreshold>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>190</Plasteel>
-			<Steel>240</Steel>
-			<HP_Ceramite>140</HP_Ceramite>
-			<HP_Auramite>5</HP_Auramite>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Plasteel>125</Plasteel>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Emperor/Shoulders/GW_HRM_Emperor_ShouldersW</wornGraphicPath>
@@ -138,30 +138,30 @@
 			<texPath>Emperor/Shoulders/GW_HRM_Emperor_ShouldersC</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>Fabrication</researchPrerequisite>
+            <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
-			<MarketValue>700</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.32</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.45</ArmorRating_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PainShockThreshold>0.2</PainShockThreshold>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>190</Plasteel>
-			<Steel>240</Steel>
-			<HP_Ceramite>140</HP_Ceramite>
-			<HP_Auramite>5</HP_Auramite>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Plasteel>125</Plasteel>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Emperor/Shoulders/GW_HRM_Emperor_ShouldersC</wornGraphicPath>
@@ -185,30 +185,30 @@
 			<texPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersW</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>Fabrication</researchPrerequisite>
+            <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
-			<MarketValue>700</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.32</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.45</ArmorRating_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PainShockThreshold>0.2</PainShockThreshold>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>190</Plasteel>
-			<Steel>240</Steel>
-			<HP_Ceramite>140</HP_Ceramite>
-			<HP_Auramite>5</HP_Auramite>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Plasteel>125</Plasteel>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersW</wornGraphicPath>
@@ -240,30 +240,30 @@
 			<texPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersC</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>Fabrication</researchPrerequisite>
+            <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
-			<MarketValue>700</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.32</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.45</ArmorRating_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<PainShockThreshold>0.05</PainShockThreshold>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PainShockThreshold>0.2</PainShockThreshold>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>190</Plasteel>
-			<Steel>240</Steel>
-			<HP_Ceramite>140</HP_Ceramite>
-			<HP_Auramite>5</HP_Auramite>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Plasteel>125</Plasteel>
+			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersC</wornGraphicPath>

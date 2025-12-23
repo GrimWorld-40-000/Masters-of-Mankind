@@ -64,6 +64,11 @@
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
+				<statOffsets>
+					<InjuryHealingFactor>2.0</InjuryHealingFactor>
+					<PsychicSensitivity>1</PsychicSensitivity>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				</statOffsets>
 			</li>
 		</stages>
 	</HediffDef>

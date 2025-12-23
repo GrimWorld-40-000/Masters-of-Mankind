@@ -107,30 +107,28 @@
 			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
-			<InjuryHealingFactor>4</InjuryHealingFactor>
-			<MentalBreakThreshold>-0.50</MentalBreakThreshold>
-			<PsychicSensitivity>4</PsychicSensitivity>
+			<InjuryHealingFactor>2</InjuryHealingFactor>
+			<PsychicSensitivity>2</PsychicSensitivity>
 		</equippedStatOffsets>
 		<statBases>
-			<WorkToMake>150000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>1200</MaxHitPoints>
-			<MarketValue>25000</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.75</ArmorRating_Heat>
+			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
 			<Insulation_Cold>40</Insulation_Cold>
 			<Insulation_Heat>14</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>350</Plasteel>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>110</HP_Adamantium>
+			<GW_Ruler_GoldenSTC>5</GW_Ruler_GoldenSTC>
+			<Plasteel>150</Plasteel>
+			<Gold>100</Gold>
+			<HP_Adamantium>40</HP_Adamantium>
 			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<apparel>
@@ -173,30 +171,28 @@
 			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
-			<InjuryHealingFactor>4</InjuryHealingFactor>
-			<MentalBreakThreshold>-0.50</MentalBreakThreshold>
-			<PsychicSensitivity>4</PsychicSensitivity>
+			<InjuryHealingFactor>2</InjuryHealingFactor>
+			<PsychicSensitivity>2</PsychicSensitivity>
 		</equippedStatOffsets>
 		<statBases>
-			<WorkToMake>150000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>1200</MaxHitPoints>
-			<MarketValue>25000</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.75</ArmorRating_Heat>
+			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
 			<Insulation_Cold>40</Insulation_Cold>
 			<Insulation_Heat>14</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>350</Plasteel>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>110</HP_Adamantium>
+			<GW_Ruler_GoldenSTC>5</GW_Ruler_GoldenSTC>
+			<Plasteel>150</Plasteel>
+			<Gold>100</Gold>
+			<HP_Adamantium>40</HP_Adamantium>
 			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<apparel>
@@ -230,30 +226,30 @@
 			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
-			<InjuryHealingFactor>4</InjuryHealingFactor>
-			<MentalBreakThreshold>-0.50</MentalBreakThreshold>
-			<PsychicSensitivity>4</PsychicSensitivity>
+			<ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
+			<PainShockThreshold>0.2</PainShockThreshold>
 		</equippedStatOffsets>
 		<statBases>
-			<WorkToMake>150000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>1200</MaxHitPoints>
-			<MarketValue>25000</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.75</ArmorRating_Heat>
-			<Insulation_Cold>40</Insulation_Cold>
-			<Insulation_Heat>14</Insulation_Heat>
+			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.75</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.6</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
+			<EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>350</Plasteel>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>110</HP_Adamantium>
+			<GW_Ruler_GoldenSTC>5</GW_Ruler_GoldenSTC>
+			<Plasteel>150</Plasteel>
+			<Gold>100</Gold>
+			<HP_Adamantium>40</HP_Adamantium>
 			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<apparel>
@@ -307,32 +303,30 @@
 			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
-			<InjuryHealingFactor>4</InjuryHealingFactor>
-			<MentalBreakThreshold>-0.50</MentalBreakThreshold>
-			<PsychicSensitivity>4</PsychicSensitivity>
+			<ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
+			<PainShockThreshold>0.2</PainShockThreshold>
 		</equippedStatOffsets>
 		<statBases>
-			<WorkToMake>150000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>1200</MaxHitPoints>
-			<MarketValue>25000</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.75</ArmorRating_Heat>
-			<Insulation_Cold>40</Insulation_Cold>
-			<Insulation_Heat>14</Insulation_Heat>
+			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.75</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.6</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 			<EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
 			<EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>350</Plasteel>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>110</HP_Adamantium>
+			<GW_Ruler_GoldenSTC>5</GW_Ruler_GoldenSTC>
+			<Plasteel>150</Plasteel>
+			<Gold>100</Gold>
+			<HP_Adamantium>40</HP_Adamantium>
 			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<apparel>
@@ -377,30 +371,29 @@
 			<researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite>
 		</recipeMaker>
 		<equippedStatOffsets>
-			<InjuryHealingFactor>4</InjuryHealingFactor>
-			<MentalBreakThreshold>-0.50</MentalBreakThreshold>
-			<PsychicSensitivity>4</PsychicSensitivity>
+			<TradePriceImprovement>0.3</TradePriceImprovement>
+			<SocialImpact>0.3</SocialImpact>
+			<MoveSpeed>1</MoveSpeed>
 		</equippedStatOffsets>
 		<statBases>
-			<WorkToMake>150000</WorkToMake>
+			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>1200</MaxHitPoints>
-			<MarketValue>25000</MarketValue>
+			<MarketValue>7800</MarketValue>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.75</ArmorRating_Heat>
-			<Insulation_Cold>40</Insulation_Cold>
-			<Insulation_Heat>14</Insulation_Heat>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<GW_Ruler_GoldenSTC>1</GW_Ruler_GoldenSTC>
-			<Plasteel>350</Plasteel>
-			<HP_Ceramite>200</HP_Ceramite>
-			<HP_Adamantium>110</HP_Adamantium>
+			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Hyperweave>150</Hyperweave>
+			<Gold>100</Gold>
+			<HP_Adamantium>40</HP_Adamantium>
 			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<apparel>
