@@ -49,7 +49,7 @@
       <li>EmperorLOTDAbility</li>
     </abilities>
 		<comps>
-			<!-- <li Class="gwrulers.HediffCompProperties_AbilitiesStartWithCooldown" /> -->
+			<li Class="gwrulers.HediffCompProperties_AbilitiesStartWithCooldown" />
 			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
 				<ownerFactionHediff>GW40k_SS_InspiringAura_Reciever</ownerFactionHediff>
 				<affectWearer>false</affectWearer>

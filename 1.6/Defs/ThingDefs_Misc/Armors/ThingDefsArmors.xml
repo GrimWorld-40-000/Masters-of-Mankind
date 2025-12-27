@@ -3,16 +3,17 @@
 	
 	<ThingDef Abstract="true" Name="GW_Rulers_ArmorBase" ParentName="ArmorMachineableBase">
 		<techLevel>Spacer</techLevel>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-				<Intellectual>15</Intellectual>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-		</recipeMaker>
+                                                        <!-- These recipes should use autoforging and cant use the usual recipe maker -->
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>20</Crafting> -->
+				<!-- <Intellectual>15</Intellectual> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_Autoforge</li> -->
+			<!-- </recipeUsers> -->
+		<!-- </recipeMaker> -->
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -103,9 +104,9 @@
 		<graphicData>
 			<texPath>Emperor/GW_HRM_Emperor_ArmorW_south</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<equippedStatOffsets>
 			<InjuryHealingFactor>2</InjuryHealingFactor>
 			<PsychicSensitivity>2</PsychicSensitivity>
@@ -167,9 +168,9 @@
 		<graphicData>
 			<texPath>Emperor/GW_HRM_Emperor_ArmorC_south</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<equippedStatOffsets>
 			<InjuryHealingFactor>2</InjuryHealingFactor>
 			<PsychicSensitivity>2</PsychicSensitivity>
@@ -222,9 +223,9 @@
 		<graphicData>
 			<texPath>Valdor/GW_HRM_Valdor_ArmorW_south</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
 			<PainShockThreshold>0.2</PainShockThreshold>
@@ -299,9 +300,9 @@
 		<graphicData>
 			<texPath>Valdor/GW_HRM_Valdor_ArmorC_south</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
 			<PainShockThreshold>0.2</PainShockThreshold>
@@ -367,9 +368,9 @@
 		<graphicData>
 			<texPath>Malcador/Apparel/GW_HRM_MalcadorRobe_Male_south</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<equippedStatOffsets>
 			<TradePriceImprovement>0.3</TradePriceImprovement>
 			<SocialImpact>0.3</SocialImpact>
@@ -438,15 +439,16 @@
 	
 	<ThingDef Abstract="true" Name="GW_RulersAOD_ArmorBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>15</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-		</recipeMaker>
+                                                        <!-- These recipes should use autoforging and cant use the usual recipe maker -->
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>15</Crafting> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_Autoforge</li> -->
+			<!-- </recipeUsers> -->
+		<!-- </recipeMaker> -->
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -533,9 +535,9 @@
 		<graphicData>
 			<texPath>LegionOfTheDamned/Firstborn/Shell/LOTDFirstBorn</texPath>
 		</graphicData>
-		<recipeMaker>
-            <researchPrerequisite>Fabrication</researchPrerequisite>
-        </recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+            <!-- <researchPrerequisite>Fabrication</researchPrerequisite> -->
+        <!-- </recipeMaker> -->
         <statBases>
 			<WorkToMake>72000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
@@ -573,9 +575,9 @@
 		<graphicData>
 			<texPath>LegionOfTheDamned/Primaris/Shell/LOTDPrimaris</texPath>
 		</graphicData>
-		<recipeMaker>
-            <researchPrerequisite>Fabrication</researchPrerequisite>
-        </recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+            <!-- <researchPrerequisite>Fabrication</researchPrerequisite> -->
+        <!-- </recipeMaker> -->
         <statBases>
 			<WorkToMake>72000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
@@ -615,9 +617,9 @@
 		<graphicData>
 			<texPath>LegionOfTheDamned/Gravis/LOTDGravis_Brother_Male_south</texPath>
 		</graphicData>
-		<recipeMaker>
-            <researchPrerequisite>Fabrication</researchPrerequisite>
-        </recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+            <!-- <researchPrerequisite>Fabrication</researchPrerequisite> -->
+        <!-- </recipeMaker> -->
         <statBases>
 			<WorkToMake>80000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>

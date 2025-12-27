@@ -20,7 +20,8 @@
 		<defName>GW_Autoforge</defName>
 		<label>Vulkan's autoforge</label> 
 		<description>A complex and arcane autoforge, designed just like one used by Vulkan, the Primarch of the Salamanders. Using "Golden STC Templates", one can forge wargear that is the stuff of legend. \n\nVulkan was one of the greatest blacksmiths the Imperium had ever seen, having been raised as one on the volcanic planet of Nocturne. Upon being discovered and recruited by the Emperor of Mankind, he continued his work, forging his own wargear and thousands of other artefacts. His Space Marine Legion, the Salamanders, took after their gene-father, and maintain a strong culture of blacksmithing and craftsmanship as a Chapter today. \n\nMany of Vulkan's works were so dangerous that at the start of the Horus Heresy, he ordered all but seven destroyed, fearing that the Traitor forces would take them for their own use.</description>
-		<!-- <thingClass>Building_WorkTableAutonomous</thingClass> -->
+		<thingClass>AutoFabricationBench.Building_AutoWorkTable</thingClass>
+    <tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Buildings/RotI_Forge</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

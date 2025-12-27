@@ -7,15 +7,16 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-		</recipeMaker>
+                                                        <!-- These recipes should use autoforging and cant use the usual recipe maker -->
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>20</Crafting> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="False"> -->
+				<!-- <li>GW_Autoforge</li> -->
+			<!-- </recipeUsers> -->
+		<!-- </recipeMaker> -->
 		<uiIconScale>1.6</uiIconScale>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
@@ -114,9 +115,9 @@
 			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
@@ -186,9 +187,9 @@
 			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<comps>
 			<li MayRequire="kentington.saveourship2">
 				<compClass>SaveOurShip2.CompEVA</compClass>
@@ -249,9 +250,9 @@
 			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>2</maskCount>
@@ -321,9 +322,9 @@
 			<Insulation_Heat>4</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<comps>
 			<li MayRequire="kentington.saveourship2">
 				<compClass>SaveOurShip2.CompEVA</compClass>
@@ -384,9 +385,9 @@
 			<Hyperweave>80</Hyperweave>
 			<HP_Auramite>50</HP_Auramite>
 		</costList>
-		<recipeMaker>
-			<researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<comps>
 			<li MayRequire="kentington.saveourship2">
 				<compClass>SaveOurShip2.CompEVA</compClass>
@@ -401,15 +402,16 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.6</drawSize>
 		</graphicData>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>15</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-		</recipeMaker>
+                                                        <!-- These recipes should use autoforging and cant use the usual recipe maker -->
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>15</Crafting> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="False"> -->
+				<!-- <li>GW_Autoforge</li> -->
+			<!-- </recipeUsers> -->
+		<!-- </recipeMaker> -->
 		<uiIconScale>1.0</uiIconScale>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
@@ -482,9 +484,9 @@
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>Fabrication</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
@@ -525,9 +527,9 @@
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>Fabrication</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
@@ -568,9 +570,9 @@
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>Fabrication</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
@@ -611,9 +613,9 @@
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <researchPrerequisite>Fabrication</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 	</ThingDef>
 
 </Defs>

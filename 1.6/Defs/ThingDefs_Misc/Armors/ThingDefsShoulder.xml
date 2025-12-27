@@ -2,15 +2,16 @@
 
 	<ThingDef Abstract="true" Name="GW_Rulers_ShoulderBase" ParentName="ArmorMachineableBase">
 		<techLevel>Spacer</techLevel>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-		</recipeMaker>
+                                                        <!-- These recipes should use autoforging and cant use the usual recipe maker -->
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>20</Crafting> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_Autoforge</li> -->
+			<!-- </recipeUsers> -->
+		<!-- </recipeMaker> -->
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -81,9 +82,9 @@
 		<graphicData>
 			<texPath>Emperor/Shoulders/GW_HRM_Emperor_ShouldersW</texPath>
 		</graphicData>
-		<recipeMaker>
-            <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
-        </recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+            <!-- <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite> -->
+        <!-- </recipeMaker> -->
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
@@ -137,9 +138,9 @@
 		<graphicData>
 			<texPath>Emperor/Shoulders/GW_HRM_Emperor_ShouldersC</texPath>
 		</graphicData>
-		<recipeMaker>
-            <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
-        </recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+            <!-- <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite> -->
+        <!-- </recipeMaker> -->
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
@@ -184,9 +185,9 @@
 		<graphicData>
 			<texPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersW</texPath>
 		</graphicData>
-		<recipeMaker>
-            <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
-        </recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+            <!-- <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite> -->
+        <!-- </recipeMaker> -->
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>
@@ -239,9 +240,9 @@
 		<graphicData>
 			<texPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersC</texPath>
 		</graphicData>
-		<recipeMaker>
-            <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
-        </recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+            <!-- <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite> -->
+        <!-- </recipeMaker> -->
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
 			<MaxHitPoints>480</MaxHitPoints>

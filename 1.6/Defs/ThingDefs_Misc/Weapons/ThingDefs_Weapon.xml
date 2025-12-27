@@ -14,17 +14,18 @@
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 		</weaponTags>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-				<Intellectual>15</Intellectual>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-			<researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite>
-		</recipeMaker>
+                                                        <!-- These recipes should use autoforging and cant use the usual recipe maker -->
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>20</Crafting> -->
+				<!-- <Intellectual>15</Intellectual> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_Autoforge</li> -->
+			<!-- </recipeUsers> -->
+			<!-- <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>75</ComponentIndustrial>
@@ -115,17 +116,17 @@
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 		</weaponTags>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-				<Intellectual>15</Intellectual>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-			<researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>20</Crafting> -->
+				<!-- <Intellectual>15</Intellectual> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_Autoforge</li> -->
+			<!-- </recipeUsers> -->
+			<!-- <researchPrerequisite>GW_Rulers_FirstCaptainr</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>75</ComponentIndustrial>
@@ -368,17 +369,17 @@
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 		</weaponTags>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>20</Crafting>
-				<Intellectual>15</Intellectual>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>GW_Autoforge</li>
-			</recipeUsers>
-			<researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite>
-		</recipeMaker>
+		<recipeMaker Inherit="false" IsNull="True"/>
+			<!-- <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>20</Crafting> -->
+				<!-- <Intellectual>15</Intellectual> -->
+			<!-- </skillRequirements> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_Autoforge</li> -->
+			<!-- </recipeUsers> -->
+			<!-- <researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>75</ComponentIndustrial>
