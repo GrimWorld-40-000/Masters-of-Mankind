@@ -2,7 +2,7 @@
 	<AbilityDef>
 		<defName>EmperorLOTDAbility</defName>
         
-		<label>The Legion Beckons</label>
+		<label>Rally the Legion</label>
         
         
 		<description>The Emperor's call cannot be denied. Summon a member of the Legion of the Damned to fight for you.</description>
