@@ -129,8 +129,8 @@
 
 	<HediffDef>
 		<defName>GW_Ruler_MalcadorDebuff</defName>
-		<label>malcador debuff</label>
-		<description>WIP.</description>
+		<label>Imposed Will</label>
+		<description>This pawn's mind is being crushed by the will of the Sigillite.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>0.001</initialSeverity>
 		<stages>
