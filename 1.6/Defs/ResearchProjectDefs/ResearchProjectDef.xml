@@ -2,8 +2,8 @@
 
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_Rulers_MasterForge</defName>
-		<label>Vulcan`s autoforge</label>
-        <description>WIP.</description>
+		<label>Vulkan's autoforge</label>
+        <description>Design an autoforge worthy of Vulkan, the Primarch of the Salamanders.</description>
 		<prerequisites>
 			<li>GW_Cogitator</li>
 		</prerequisites>
@@ -26,8 +26,8 @@
 
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_Rulers_OneTrueArmor</defName>
-		<label>One true armor</label>
-        <description>Replicate the armor and weapons of Emepror himself.</description>
+		<label>One True Armor</label>
+        <description>Replicate the arms and armor of the Emperor of Mankind Himself.</description>
 		<prerequisites>
 			<li>GW_Rulers_MasterForge</li>
 		</prerequisites>
@@ -49,8 +49,8 @@
 
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_Rulers_FirstCaptainr</defName>
-		<label>First capitan general</label>
-        <description>Replicate the armor and weapons of Costantine Valdor, the first capitain general of legio custodes.</description>
+		<label>The Chief Custodian</label>
+        <description>Replicate the wargear of Constantine Valdor, the First of the Ten Thousand.</description>
 		<prerequisites>
 			<li>GW_Rulers_MasterForge</li>
 		</prerequisites>
@@ -72,8 +72,8 @@
 
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_Rulers_EmperorRightHand</defName>
-		<label>Emperor's right hand</label>
-        <description>Replicate the gear of Malcador the Sigilite, Emperor`s right hand.</description>
+		<label>The Sigillite</label>
+        <description>Replicate the regalia of Malcador the Sigillite, the Emperor's right hand.</description>
 		<prerequisites>
 			<li>GW_Rulers_MasterForge</li>
 		</prerequisites>
