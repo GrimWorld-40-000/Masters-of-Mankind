@@ -18,7 +18,7 @@
 	<HediffDef>
 		<defName>GW_Ruler_EmperorAura</defName>
 		<label>Holy Light</label>
-		<description>The sheer radiance of this pawn inspires others to fight with all their might.</description>
+		<description>This pawn has been crowned Emperor. Their sheer radiance inspires others to fight with all their might.</description>
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>0.001</initialSeverity>
