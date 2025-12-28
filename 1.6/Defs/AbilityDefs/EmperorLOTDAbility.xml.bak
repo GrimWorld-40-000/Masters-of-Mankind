@@ -2,10 +2,10 @@
 	<AbilityDef>
 		<defName>EmperorLOTDAbility</defName>
         
-		<label>The Legion Beckons</label>
+		<label>Rally the Legion</label>
         
         
-		<description>Summon a member of the Legion of the Damned to fight for you.</description>
+		<description>The Emperor's call cannot be denied. Summon a member of the Legion of the Damned to fight for you.</description>
 		<!-- Placeholder icon path -->
 		<iconPath>Emperor/Headgear/GW_HRM_Emperor_LaurelsAura</iconPath>
         
@@ -61,8 +61,8 @@
 	
 	<AbilityDef>
 		<defName>GW_Ruler_MalcadorAbility</defName>
-		<label>mass consciousness down</label>
-		<description>WIP.</description>
+		<label>Will of the Sigillite</label>
+		<description>Crush the enemy with the power of your mind. Greatly decrease the consciousness of all entities in the area of effect.</description>
 		<iconPath>Emperor/Headgear/GW_HRM_Emperor_LaurelsAura</iconPath>
 		<writeCombatLog>True</writeCombatLog>
 		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
