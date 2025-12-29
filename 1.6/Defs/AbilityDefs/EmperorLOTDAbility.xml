@@ -35,6 +35,7 @@
                   <chance>0.2</chance>
                 </li>
               </pawnKindDefs>
+              <defaultScaling>1</defaultScaling>
             </li>
             <li Class="CompProperties_AbilityEffecterOnTarget">
               <effecterDef>Skip_Exit</effecterDef>
