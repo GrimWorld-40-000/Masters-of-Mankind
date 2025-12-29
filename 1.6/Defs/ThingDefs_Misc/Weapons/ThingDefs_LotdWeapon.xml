@@ -152,12 +152,13 @@
 			<recipeMaker Inherit="False" IsNull="True" />
 	  </ThingDef>
 	  
-	  <ThingDef ParentName="GW_SM_TermBase">
+	  <ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_Rulers_Gun_AstartesPlasmaCannon</defName>
 		<label>astartes plasmagun</label>
 		<description>A hard-hitting plasma weapon used by Devastator Squads of Firstborn Space Marines. Also known as a heavy plasma gun, the larger size of this weapon allows its shots to affect a wider area, as well as being more deadly. \n\nSimilar weapons are found mounted on Imperial vehicles, which have no risk of overheating due to the vehicle’s systems.</description>
 		<graphicData>
 			<texPath>Things/Weapons/LegionOfTheDamned/AstartesPlasmaCannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>			
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		<uiIconScale>0.8</uiIconScale>
