@@ -17,9 +17,6 @@
 		<weaponTags>
 			<li>GW_LOTD_Melee</li>
 		</weaponTags>
-		<tradeTags>
-			<li>HPMelee</li>
-		</tradeTags>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
 			<Mass>6</Mass>
@@ -107,9 +104,6 @@
 		<weaponTags>
 		    <li>GW_LOTD_Melee</li>
 		</weaponTags>
-		<tradeTags>
-		  <li>HPMelee</li>
-		</tradeTags>
 		<statBases>
 		  <WorkToMake>20000</WorkToMake>
 			<Mass>5</Mass>
@@ -160,7 +154,7 @@
 	  
 	  <ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_Rulers_Gun_AstartesPlasmaCannon</defName>
-		<label>astartes plasma cannon</label>
+		<label>astartes plasmagun</label>
 		<description>A hard-hitting plasma weapon used by Devastator Squads of Firstborn Space Marines. Also known as a heavy plasma gun, the larger size of this weapon allows its shots to affect a wider area, as well as being more deadly. \n\nSimilar weapons are found mounted on Imperial vehicles, which have no risk of overheating due to the vehicle’s systems.</description>
 		<graphicData>
 			<texPath>Things/Weapons/LegionOfTheDamned/AstartesPlasmaCannon</texPath>
@@ -193,9 +187,6 @@
 		<weaponClasses>
 			<li>RangedHeavy</li>
 		</weaponClasses>
-		<tradeTags>
-			<li>HPRanged</li>
-		</tradeTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -288,9 +279,6 @@
 		<weaponClasses>
 			<li>RangedHeavy</li>
 		</weaponClasses>
-		<tradeTags>
-			<li>HPRanged</li>
-		</tradeTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -363,9 +351,6 @@
         <weaponTags>
             <li>GW_LOTD_Ranged</li>
         </weaponTags>
-        <tradeTags>
-            <li>HPRanged</li>
-        </tradeTags>
         <weaponClasses>
             <li>RangedHeavy</li>
         </weaponClasses>
@@ -439,9 +424,6 @@
 		<weaponClasses>
 			<li>RangedHeavy</li>
 		</weaponClasses>
-		<tradeTags>
-			<li>HPRanged</li>
-		</tradeTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
