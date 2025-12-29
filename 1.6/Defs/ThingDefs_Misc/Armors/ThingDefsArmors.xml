@@ -126,11 +126,14 @@
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<GW_Ruler_GoldenSTC>5</GW_Ruler_GoldenSTC>
 			<Plasteel>150</Plasteel>
-			<Gold>100</Gold>
-			<HP_Adamantium>40</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<Gold>120</Gold>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>50</HP_Adamantium>
+			<HP_Auramite>60</HP_Auramite>
+			<GW_ComponentRelic>7</GW_ComponentRelic>
+			<ComponentSpacer>14</ComponentSpacer>
+			<ComponentIndustrial>20</ComponentIndustrial>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Emperor/GW_HRM_Emperor_ArmorW</wornGraphicPath>
@@ -190,11 +193,14 @@
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<GW_Ruler_GoldenSTC>5</GW_Ruler_GoldenSTC>
 			<Plasteel>150</Plasteel>
-			<Gold>100</Gold>
-			<HP_Adamantium>40</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<Gold>120</Gold>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>50</HP_Adamantium>
+			<HP_Auramite>60</HP_Auramite>
+			<GW_ComponentRelic>7</GW_ComponentRelic>
+			<ComponentSpacer>14</ComponentSpacer>
+			<ComponentIndustrial>20</ComponentIndustrial>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Emperor/GW_HRM_Emperor_ArmorC</wornGraphicPath>
@@ -247,11 +253,14 @@
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<GW_Ruler_GoldenSTC>5</GW_Ruler_GoldenSTC>
 			<Plasteel>150</Plasteel>
-			<Gold>100</Gold>
-			<HP_Adamantium>40</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<Gold>120</Gold>
+			<HP_Ceramite>210</HP_Ceramite>
+			<HP_Adamantium>55</HP_Adamantium>
+			<HP_Auramite>60</HP_Auramite>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<ComponentSpacer>12</ComponentSpacer>
+			<ComponentIndustrial>18</ComponentIndustrial>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Valdor/GW_HRM_Valdor_ArmorW</wornGraphicPath>
@@ -324,11 +333,14 @@
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<GW_Ruler_GoldenSTC>5</GW_Ruler_GoldenSTC>
 			<Plasteel>150</Plasteel>
-			<Gold>100</Gold>
-			<HP_Adamantium>40</HP_Adamantium>
-			<HP_Auramite>50</HP_Auramite>
+			<Gold>120</Gold>
+			<HP_Ceramite>210</HP_Ceramite>
+			<HP_Adamantium>55</HP_Adamantium>
+			<HP_Auramite>60</HP_Auramite>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<ComponentSpacer>12</ComponentSpacer>
+			<ComponentIndustrial>18</ComponentIndustrial>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Valdor/GW_HRM_Valdor_ArmorC</wornGraphicPath>
@@ -391,11 +403,13 @@
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
 			<Hyperweave>150</Hyperweave>
 			<Gold>100</Gold>
 			<HP_Adamantium>40</HP_Adamantium>
 			<HP_Auramite>50</HP_Auramite>
+			<HP_Ceramite>90</HP_Ceramite>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<ComponentSpacer>12</ComponentSpacer>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Malcador/Apparel/GW_HRM_MalcadorRobe</wornGraphicPath>

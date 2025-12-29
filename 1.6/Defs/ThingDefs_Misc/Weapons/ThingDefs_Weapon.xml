@@ -208,6 +208,28 @@
 			</li>
 			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li> -->
 		</comps>
+		<modExtensions>
+			<li Class="VEF.Things.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.3, 0, 0.36)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.15, 0, 0.42)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -399,8 +421,8 @@
 		<equippedStatOffsets>
 			<MoveSpeed>0.50</MoveSpeed>
 			<Beauty>10</Beauty>
-			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royality">0.15</PsychicSensitivityOffset>
-      		<PsychicEntropyRecoveryRate MayRequire="ludeon.rimworld.royality">0.066</PsychicEntropyRecoveryRate>
+			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royalty">0.15</PsychicSensitivityOffset>
+      		<PsychicEntropyRecoveryRate MayRequire="ludeon.rimworld.royalty">0.066</PsychicEntropyRecoveryRate>
 		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>

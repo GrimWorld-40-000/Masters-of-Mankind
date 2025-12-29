@@ -92,14 +92,11 @@
 		<equippedStatOffsets>
 			<InjuryHealingFactor>0.5</InjuryHealingFactor>
 			<PsychicSensitivity>0.5</PsychicSensitivity>
-			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
-			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
-			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
 			<Plasteel>125</Plasteel>
-			<HP_Auramite>50</HP_Auramite>
+			<Gold>200</Gold>
+			<HP_Auramite>150</HP_Auramite>
 			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<statBases>
@@ -164,14 +161,11 @@
 		<equippedStatOffsets>
 			<InjuryHealingFactor>0.5</InjuryHealingFactor>
 			<PsychicSensitivity>0.5</PsychicSensitivity>
-			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
-			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
-			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
 			<Plasteel>125</Plasteel>
-			<HP_Auramite>50</HP_Auramite>
+			<Gold>200</Gold>
+			<HP_Auramite>150</HP_Auramite>
 			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
 		<statBases>
@@ -232,10 +226,13 @@
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Gold>200</Gold>
 			<Plasteel>125</Plasteel>
 			<HP_Auramite>50</HP_Auramite>
 			<HP_Ceramite>80</HP_Ceramite>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<ComponentIndustrial>20</ComponentIndustrial>
+			<ComponentSpacer>12</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
@@ -304,10 +301,13 @@
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
-			<GW_Ruler_GoldenSTC>4</GW_Ruler_GoldenSTC>
+			<Gold>200</Gold>
 			<Plasteel>125</Plasteel>
 			<HP_Auramite>50</HP_Auramite>
 			<HP_Ceramite>80</HP_Ceramite>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<ComponentIndustrial>20</ComponentIndustrial>
+			<ComponentSpacer>12</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
@@ -362,7 +362,6 @@
 		<equippedStatOffsets>
 			<SocialImpact>0.5</SocialImpact>
 			<PsychicSensitivity>0.25</PsychicSensitivity>
-			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
@@ -381,9 +380,12 @@
 		</statBases>
 		<tickerType>Normal</tickerType> 
 		<costList>
-			<GW_Ruler_GoldenSTC>3</GW_Ruler_GoldenSTC>
+			<HP_Ceramite>100</HP_Ceramite>
+			<Gold>140</Gold>
 			<Hyperweave>80</Hyperweave>
 			<HP_Auramite>50</HP_Auramite>
+			<ComponentSpacer>10</ComponentSpacer>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
 		</costList>
 		<recipeMaker Inherit="false" IsNull="True"/>
 			<!-- <researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite> -->
