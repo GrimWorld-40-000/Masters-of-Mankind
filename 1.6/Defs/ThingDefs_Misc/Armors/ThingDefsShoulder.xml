@@ -104,8 +104,9 @@
 		</equippedStatOffsets>
 		<costList>
 			<Plasteel>250</Plasteel>
-			<HP_Auramite>100</HP_Auramite>
-			<HP_Ceramite>80</HP_Ceramite>
+			<HP_Auramite>140</HP_Auramite>
+			<HP_Ceramite>110</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
 			<Gold>22</Gold>
 		</costList>
 		<apparel>
@@ -168,8 +169,9 @@
 		</equippedStatOffsets>
 		<costList>
 			<Plasteel>250</Plasteel>
-			<HP_Auramite>100</HP_Auramite>
-			<HP_Ceramite>80</HP_Ceramite>
+			<HP_Auramite>140</HP_Auramite>
+			<HP_Ceramite>110</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
 			<Gold>22</Gold>
 		</costList>
 		<apparel>
@@ -225,7 +227,9 @@
 			<Plasteel>270</Plasteel>
 			<HP_Auramite>120</HP_Auramite>
 			<HP_Ceramite>100</HP_Ceramite>
+			<HP_Adamantium>150</HP_Adamantium>
 			<Gold>20</Gold>
+			<Skull>1</Skull>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersW</wornGraphicPath>
@@ -280,7 +284,9 @@
 			<Plasteel>270</Plasteel>
 			<HP_Auramite>120</HP_Auramite>
 			<HP_Ceramite>100</HP_Ceramite>
+			<HP_Adamantium>150</HP_Adamantium>
 			<Gold>20</Gold>
+			<Skull>1</Skull>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersC</wornGraphicPath>

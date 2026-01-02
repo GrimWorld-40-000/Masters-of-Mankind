@@ -578,7 +578,7 @@
 	<ThingDef ParentName="GW_RulersAOD_ArmorBase">
         <defName>GW_Rulers_FirstbornArmor</defName>
 		<label>Firstborn armor</label>
-        	<description>Adeptus Astartes Power Armor, of the Mk VII Aquila pattern. Developed in the last days of the Horus Heresy, the Aquilla armor only became widely adopted after the civil war was over. \n\nUp until the Ultima Founding and the subsequent Indomitus Crusade, this was the armor of the typical Space Marine.</description>
+        	<description>Isstvan V... Isstvan V... Isstvan V.</description>
 		<graphicData>
 			<texPath>LegionOfTheDamned/Firstborn/Shell/LOTDFirstBorn</texPath>
 		</graphicData>
@@ -618,7 +618,7 @@
 	<ThingDef ParentName="GW_RulersAOD_ArmorBase">
         <defName>GW_Rulers_PrimarisArmor</defName>
 		<label>Primaris armor</label>
-        	<description>A suit of middleweight Mk X Tacticus Power Armor. The standard fare for the vast majority of the Primaris Space Marines, it features improved protection over older patterns while retaining mobility. \n\nThe Primarch Roboute Guilliman instructed Archmagos Belisarius Cawl to begin the development of the Primaris Marines in the 31st Millennium, just after the horrors of the Horus Heresy. Ten thousand years later, the two reunited just in time to see the project's completion.</description>
+        	<description>Isstvan V... Isstvan V... Isstvan V.</description>
 		<graphicData>
 			<texPath>LegionOfTheDamned/Primaris/Shell/LOTDPrimaris</texPath>
 		</graphicData>
@@ -660,7 +660,7 @@
 	<ThingDef ParentName="GW_RulersAOD_ArmorBase">
         <defName>GW_Rulers_GravisArmor</defName>
 		<label>Gravis power armor</label>
-		<description>A heavyweight suit of Power Armor, of the Mk X Gravis pattern. A cut above standard Tacticus armor, it allows the wearer to take more fire than normal while responding in kind. \n\nThe heavyweight Aggressors, the plasma-wielding Eradicators, and some officers of the Primaris Space Marines all wear this armor. Inceptors, wearing jump-packs, also use this armor to great effect, compensating for lower mobility with the power to leap long distances.</description>
+		<description>Isstvan V... Isstvan V... Isstvan V.</description>
 		<graphicData>
 			<texPath>LegionOfTheDamned/Gravis/LOTDGravis_Brother_Male_south</texPath>
 		</graphicData>

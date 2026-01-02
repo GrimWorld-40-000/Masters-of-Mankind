@@ -95,7 +95,7 @@
 		</equippedStatOffsets>
 		<costList>
 			<Plasteel>125</Plasteel>
-			<Gold>20</Gold>
+			<Gold>30</Gold>
 			<HP_Auramite>150</HP_Auramite>
 			<HP_Ceramite>80</HP_Ceramite>
 		</costList>
@@ -178,7 +178,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
-			<MaxHitPoints>1200</MaxHitPoints>
+			<MaxHitPoints>700</MaxHitPoints>
 			<MarketValue>7800</MarketValue>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
@@ -252,7 +252,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
-			<MaxHitPoints>1200</MaxHitPoints>
+			<MaxHitPoints>700</MaxHitPoints>
 			<MarketValue>7800</MarketValue>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
@@ -383,7 +383,7 @@
 		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>240000</WorkToMake>
-			<MaxHitPoints>1200</MaxHitPoints>
+			<MaxHitPoints>400</MaxHitPoints>
 			<MarketValue>7800</MarketValue>
 			<Mass>11</Mass>
 			<Flammability>0.0</Flammability>
@@ -475,7 +475,7 @@
 	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
 		<defName>GW_SM_FirstbornHelmet</defName>
 		<label>Firstborn helmet</label>
-		<description>A Power Armor helmet of Mk VII Aquila design. Well-suited to shrugging off moderate enemy fire. \n\nIt is a trialing time for everyone, even the gene-enhanced veteran Marines. More than one has had a mental or philosophical breakdown on the Imperial voidships. \n\nMost can be calmed down eventually. Some cannot.</description>
+		<description><description>Isstvan V... Isstvan V... Isstvan V.</description></description>
 		<graphicData>
 			<texPath>LegionOfTheDamned/Firstborn/Shell/LOTDFirstBornHelmet</texPath>
 		</graphicData>
@@ -518,7 +518,7 @@
 	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
 		<defName>GW_Rulers_PrimarisHelmet</defName>
 		<label>Primaris helmet</label>
-		<description>A helmet built for the Mk X Tacticus suit of Power Armor. It strongly resembles the Mk IV Maximus pattern helmet - indeed, the designs of Mk X armor draw inspiration from the most sophisticated patterns of Power Armor. \n\nIn this fleet, there is little distinction between a Firstborn Space Marine and a Primaris Space Marine any more - the surviving Marines emerged from the Warp disaster as equals. The gene-enhanced Astartes are nowadays seldom deployed to the field, instead spending their days training “mortals” to wield their equipment or volunteering for Cawl's Primarch project.</description>
+		<description><description>Isstvan V... Isstvan V... Isstvan V.</description></description>
 		<graphicData>
 			<texPath>LegionOfTheDamned/Primaris/Shell/LOTDPrimarisHelmet</texPath>
 		</graphicData>
@@ -561,7 +561,7 @@
 	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
 		<defName>GW_Rulers_PrimarisTenatHelmet</defName>
 		<label>Primaris helmet(Lieutenant)</label>
-		<description>A helmet built for the Mk X Tacticus suit of Power Armor. It strongly resembles the Mk IV Maximus pattern helmet - indeed, the designs of Mk X armor draw inspiration from the most sophisticated patterns of Power Armor. \n\nIn this fleet, there is little distinction between a Firstborn Space Marine and a Primaris Space Marine any more - the surviving Marines emerged from the Warp disaster as equals. The gene-enhanced Astartes are nowadays seldom deployed to the field, instead spending their days training “mortals” to wield their equipment or volunteering for Cawl's Primarch project.</description>
+		<description><description>Isstvan V... Isstvan V... Isstvan V.</description></description>
 		<graphicData>
 			<texPath>LegionOfTheDamned/Primaris/Shell/LOTD_PrimarisLieutenat</texPath>
 		</graphicData>
@@ -604,7 +604,7 @@
 	<ThingDef ParentName="GW_RulersAOD_HelmetBase">
 		<defName>GW_Rulers_GravisHelmet</defName>
 		<label>Gravis helmet</label>
-		<description>A tough helmet, built for Mk X Gravis Power Armor. This suit acts as a middle ground between regular Power Armor and the super-heavy Terminator Armor. \n\nUnlike their gene-enhanced ancestors, baseline humans have trouble moving in the heavier Power Armor suits, even with the assistance of their fibrovest and the armor's servos.</description>
+		<description><description>Isstvan V... Isstvan V... Isstvan V.</description></description>
 		<graphicData>
 			<texPath>LegionOfTheDamned/Gravis/Shell/LOTDGravisHelmet</texPath>
 		</graphicData>

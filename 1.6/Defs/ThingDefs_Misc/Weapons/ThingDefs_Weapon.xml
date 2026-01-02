@@ -27,15 +27,12 @@
 			<!-- <researchPrerequisite>GW_Rulers_OneTrueArmor</researchPrerequisite> -->
 		<!-- </recipeMaker> -->
 		<costList>
-			<ComponentSpacer>40</ComponentSpacer>
-			<ComponentIndustrial>75</ComponentIndustrial>
-			<GW_ComponentRelic>10</GW_ComponentRelic>
-			<Plasteel>1100</Plasteel>
-			<Steel>2000</Steel>
-			<Gold>80</Gold>
-			<HP_Ceramite>900</HP_Ceramite>
+			<ComponentSpacer>55</ComponentSpacer>
+			<GW_ComponentRelic>20</GW_ComponentRelic>
+			<Plasteel>1600</Plasteel>
+			<Gold>12</Gold>
 			<HP_Adamantium>440</HP_Adamantium>
-			<HP_Auramite>300</HP_Auramite>
+			<HP_Auramite>550</HP_Auramite>
 		</costList>
 		<stuffCategories Inherit="False" IsNull="True"/>
 		<costStuffCount/>
@@ -44,7 +41,7 @@
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
-			<MaxHitPoints>5000</MaxHitPoints>
+			<MaxHitPoints>1000</MaxHitPoints>
 			<WorkToMake>240000</WorkToMake>
 			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
@@ -126,14 +123,12 @@
 		<!-- </recipeMaker> -->
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
-			<ComponentIndustrial>75</ComponentIndustrial>
-			<GW_ComponentRelic>10</GW_ComponentRelic>
-			<Plasteel>1100</Plasteel>
-			<Steel>2000</Steel>
-			<Gold>80</Gold>
+			<GW_ComponentRelic>18</GW_ComponentRelic>
+			<Plasteel>1400</Plasteel>
+			<Gold>12</Gold>
 			<HP_Ceramite>900</HP_Ceramite>
 			<HP_Adamantium>440</HP_Adamantium>
-			<HP_Auramite>300</HP_Auramite>
+			<HP_Auramite>500</HP_Auramite>
 		</costList>
 		<stuffCategories Inherit="False" IsNull="True"/>
 		<costStuffCount/>
@@ -142,7 +137,7 @@
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
-			<MaxHitPoints>5000</MaxHitPoints>
+			<MaxHitPoints>1200</MaxHitPoints>
 			<WorkToMake>240000</WorkToMake>
 			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
@@ -249,14 +244,12 @@
 		<!-- <recipeMaker Inherit="False" IsNull="True" /> -->
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
-			<ComponentIndustrial>75</ComponentIndustrial>
-			<GW_ComponentRelic>10</GW_ComponentRelic>
-			<Plasteel>1100</Plasteel>
-			<Steel>2000</Steel>
-			<Gold>80</Gold>
+			<GW_ComponentRelic>18</GW_ComponentRelic>
+			<Plasteel>1400</Plasteel>
+			<Gold>12</Gold>
 			<HP_Ceramite>900</HP_Ceramite>
 			<HP_Adamantium>440</HP_Adamantium>
-			<HP_Auramite>300</HP_Auramite>
+			<HP_Auramite>500</HP_Auramite>
 		</costList>
 		<stuffCategories Inherit="False" IsNull="True"/>
 		<costStuffCount/>
@@ -266,7 +259,7 @@
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
-			<MaxHitPoints>5000</MaxHitPoints>
+			<MaxHitPoints>1200</MaxHitPoints>
 			<WorkToMake>9000</WorkToMake>
 			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
@@ -417,15 +410,13 @@
 			<!-- <researchPrerequisite>GW_Rulers_EmperorRightHand</researchPrerequisite> -->
 		<!-- </recipeMaker> -->
 		<costList>
-			<ComponentSpacer>40</ComponentSpacer>
-			<ComponentIndustrial>75</ComponentIndustrial>
-			<GW_ComponentRelic>10</GW_ComponentRelic>
-			<Plasteel>1100</Plasteel>
-			<Steel>2000</Steel>
-			<Gold>80</Gold>
-			<HP_Ceramite>900</HP_Ceramite>
-			<HP_Adamantium>440</HP_Adamantium>
-			<HP_Auramite>300</HP_Auramite>
+			<GW_ComponentRelic>25</GW_ComponentRelic>
+			<ComponentSpacer>14</ComponentSpacer>
+			<Plasteel>500</Plasteel>
+			<Steel>450</Steel>
+			<Gold>15</Gold>
+			<HP_Auramite>400</HP_Auramite>
+			<WoodLog>150</WoodLog>
 		</costList>
 		<stuffCategories Inherit="False" IsNull="True"/>
 		<costStuffCount/>
@@ -435,9 +426,9 @@
 		<equippedAngleOffset>-90</equippedAngleOffset>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
-			<MaxHitPoints>5000</MaxHitPoints>
+			<MaxHitPoints>700</MaxHitPoints>
 			<WorkToMake>9000</WorkToMake>
-			<Mass>12</Mass>
+			<Mass>5</Mass>
 			<MarketValue>4000</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
@@ -445,6 +436,7 @@
 			<Beauty>10</Beauty>
 			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royalty">0.15</PsychicSensitivityOffset>
       		<PsychicEntropyRecoveryRate MayRequire="ludeon.rimworld.royalty">0.066</PsychicEntropyRecoveryRate>
+			<PsychicSensitivity>1.2</PsychicSensitivity>
 		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
@@ -561,15 +553,13 @@
 		</weaponTags>
 		<!-- <recipeMaker Inherit="False" IsNull="True" /> -->
 		<costList>
-			<ComponentSpacer>40</ComponentSpacer>
-			<ComponentIndustrial>75</ComponentIndustrial>
-			<GW_ComponentRelic>10</GW_ComponentRelic>
-			<Plasteel>1100</Plasteel>
-			<Steel>2000</Steel>
-			<Gold>80</Gold>
-			<HP_Ceramite>900</HP_Ceramite>
-			<HP_Adamantium>440</HP_Adamantium>
-			<HP_Auramite>300</HP_Auramite>
+			<GW_ComponentRelic>25</GW_ComponentRelic>
+			<ComponentSpacer>14</ComponentSpacer>
+			<Plasteel>500</Plasteel>
+			<Steel>450</Steel>
+			<Gold>15</Gold>
+			<HP_Auramite>400</HP_Auramite>
+			<WoodLog>150</WoodLog>
 		</costList>
 		<stuffCategories Inherit="False" IsNull="True"/>
 		<costStuffCount/>
@@ -578,7 +568,7 @@
 		<smeltable>false</smeltable>
 		<burnableByRecipe>false</burnableByRecipe>
 		<statBases>
-			<MaxHitPoints>5000</MaxHitPoints>
+			<MaxHitPoints>700</MaxHitPoints>
 			<WorkToMake>9000</WorkToMake>
 			<Mass>12</Mass>
 			<MarketValue>4000</MarketValue>
