@@ -77,8 +77,8 @@
 	
 	<ThingDef ParentName="GW_Rulers_ShoulderBase">
 		<defName>GW_Rulers_EmperorShoulderW</defName>
-		<label>Emperor shoulder (W)</label>
-		<description>WIP.</description>
+		<label>One True Armor shoulders (W)</label>
+		<description>The shoulder plates of the One True Armor, decorated with the motifs of majestic eagles. \n\nThe Emperor wore Power Armor just like this through the Great Crusade and the Horus Heresy - including the final duel against the Arch-Traitor Horus aboard the &lt;i&gt;Vengeful Spirit&lt;/i&gt;. There, exhausted and mortally-wounded, he slew what remained of his son with the Athame dagger... or, perhaps, it was an act of mercy. \n\nWhatever the case, the Traitor forces collapsed with the loss of their leader, and the Loyalists hounded them all the way to the Eye of Terror - but the damage was done.</description>
 		<graphicData>
 			<texPath>Emperor/Shoulders/GW_HRM_Emperor_ShouldersW</texPath>
 		</graphicData>
@@ -142,8 +142,8 @@
 	
 	<ThingDef ParentName="GW_Rulers_ShoulderBase">
 		<defName>GW_Rulers_EmperorShoulder</defName>
-		<label>Emperor shoulder</label>
-		<description>WIP.</description>
+		<label>One True Armor shoulders</label>
+		<description>The shoulder plates of the One True Armor, decorated with the motifs of majestic eagles. \n\nThe Emperor wore Power Armor just like this through the Great Crusade and the Horus Heresy - including the final duel against the Arch-Traitor Horus aboard the &lt;i&gt;Vengeful Spirit&lt;/i&gt;. There, exhausted and mortally-wounded, he slew what remained of his son with the Athame dagger... or, perhaps, it was an act of mercy. \n\nWhatever the case, the Traitor forces collapsed with the loss of their leader, and the Loyalists hounded them all the way to the Eye of Terror - but the damage was done.</description>
 		<graphicData>
 			<texPath>Emperor/Shoulders/GW_HRM_Emperor_ShouldersC</texPath>
 		</graphicData>
@@ -198,8 +198,8 @@
 	
 	<ThingDef ParentName="GW_Rulers_ShoulderBase">
 		<defName>GW_Rulers_ValdorShoulderW</defName>
-		<label>Valdor's shoulder(W)</label>
-		<description>WIP.</description>
+		<label>Corinthine Warplate shoulders (W)</label>
+		<description>The auramite shoulder pauldrons of the Corinthine Warplate, gleaming in its splendor. \n\nConstantin Valdor fought valiantly in defense of Terra, boarding the &lt;i&gt;Vengeful Spirit&lt;/i&gt; but becoming separated from the Emperor in a trap. Assailed by First Captain Ezekyle Abaddon of the Sons of Horus, he duelled the Traitor Marine and managed to cut him with the Apollonian Spear. However, as the Spear gave him an insight into the next ten thousand years of war and destruction, the horrified Captain-General named Abaddon "the Despoiler" - a title that the latter has used ever since.</description>
 		<graphicData>
 			<texPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersW</texPath>
 		</graphicData>
@@ -255,8 +255,8 @@
 	
 	<ThingDef ParentName="GW_Rulers_ShoulderBase">
 		<defName>GW_Rulers_ValdorShoulder</defName>
-		<label>Valdor's shoulder</label>
-		<description>WIP.</description>
+		<label>Corinthine Warplate shoulders</label>
+		<description>The auramite shoulder pauldrons of the Corinthine Warplate, gleaming in its splendor. \n\nConstantin Valdor fought valiantly in defense of Terra, boarding the &lt;i&gt;Vengeful Spirit&lt;/i&gt; but becoming separated from the Emperor in a trap. Assailed by First Captain Ezekyle Abaddon of the Sons of Horus, he duelled the Traitor Marine and managed to cut him with the Apollonian Spear. However, as the Spear gave him an insight into the next ten thousand years of war and destruction, the horrified Captain-General named Abaddon "the Despoiler" - a title that the latter has used ever since.</description>
 		<graphicData>
 			<texPath>Valdor/Shoulders/GW_HRM_Valdor_ShouldersC</texPath>
 		</graphicData>
