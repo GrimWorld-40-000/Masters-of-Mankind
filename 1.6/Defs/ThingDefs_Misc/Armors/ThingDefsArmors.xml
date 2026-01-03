@@ -403,7 +403,7 @@
 	<ThingDef ParentName="GW_Rulers_ArmorBase">
 		<defName>GW_Rulers_MalcadorOutfit</defName>
 		<label>Robes of Malcador</label>
-		<description>A master-crafted set of robes akin to those worn by Malcador the Sigillite, the closest advisor of the Emperor of Mankind. Auramite and ceramite reinforcement makes this a deceptively-protective piece of apparel. \n\nMalcador met the Emperor as He began His conquest, and was the one who recommended that He take on His title. The Sigillite served loyally as the Imperium ascended to the stars, with his mastery of organisation keeping the ever-expanding empire in order.</description>
+		<description>A master-crafted set of robes akin to those worn by Malcador the Sigillite, the closest advisor of the Emperor of Mankind. Auramite and ceramite reinforcement makes this a deceptively-protective piece of apparel. \n\nMalcador met the Emperor as He began His conquest, and was the one who recommended that He take on His title. The Sigillite served loyally as the Imperium ascended to the stars, with his mastery of organisation keeping the ever-expanding empire in order. \n\nHowever, he was also the first Grand Master of Assassins, ordering the elimination of the Imperium's enemies from the shadows.</description>
 		<graphicData>
 			<texPath>Malcador/Apparel/GW_HRM_MalcadorRobe_Male_south</texPath>
 		</graphicData>
