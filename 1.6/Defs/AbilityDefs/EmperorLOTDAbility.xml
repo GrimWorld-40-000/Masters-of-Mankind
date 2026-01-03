@@ -32,7 +32,11 @@
                 </li>
                 <li>
                   <pawnKindDef>LOTD_Gravis</pawnKindDef>
-                  <chance>0.2</chance>
+                  <chance>0.4</chance>
+                </li>
+                 <li>
+                  <pawnKindDef>LOTD_Xth</pawnKindDef>
+                  <chance>0.1</chance>
                 </li>
               </pawnKindDefs>
               <defaultScaling>1</defaultScaling>
