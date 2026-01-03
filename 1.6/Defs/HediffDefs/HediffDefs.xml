@@ -5,7 +5,7 @@
 	<HediffDef>
 		<defName>GW_Ruler_EmperorLOTD_24Hours</defName>
 		<label>Legionnaire of the Damned</label>
-		<description>This pawn is of the Legion of the Damned, summoned by the Emperor to do their duty. They will banished back to the Warp in 24 hours.</description>
+		<description>This pawn is of the Legion of the Damned, summoned by the Emperor to do their duty. They will be banished back to the Warp in 24 hours.</description>
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>0.001</initialSeverity>
@@ -36,7 +36,7 @@
 	<HediffDef>
 		<defName>GW_Ruler_EmperorLOTD_12Hours</defName>
 		<label>Legionnaire of the Damned</label>
-		<description>This pawn is of the Legion of the Damned, summoned by the Emperor to do their duty. They will banished back to the Warp in 12 hours.</description>
+		<description>This pawn is of the Legion of the Damned, summoned by the Emperor to do their duty. They will be banished back to the Warp in 12 hours.</description>
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>0.001</initialSeverity>
@@ -67,7 +67,7 @@
 	<HediffDef>
 		<defName>GW_Ruler_EmperorLOTD_6Hours</defName>
 		<label>Legionnaire of the Damned</label>
-		<description>This pawn is of the Legion of the Damned, summoned by the Emperor to do their duty. They will banished back to the Warp in 6 hours.</description>
+		<description>This pawn is of the Legion of the Damned, summoned by the Emperor to do their duty. They will be banished back to the Warp in 6 hours.</description>
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>0.001</initialSeverity>
