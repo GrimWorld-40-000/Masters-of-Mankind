@@ -67,7 +67,7 @@
             <range>120</range>
             <warmupTime>7</warmupTime>
             <!-- <burstShotCount>1</burstShotCount> -->
-            <soundCast>ChargeBlaster</soundCast> <!-- Placeholder sound -->
+            <soundCast>Shot_ChargeBlaster</soundCast>
             <requireLineOfSight>True</requireLineOfSight>
             <targetParams>
                 <!-- <canTargetAnimals>False</canTargetAnimals> -->
