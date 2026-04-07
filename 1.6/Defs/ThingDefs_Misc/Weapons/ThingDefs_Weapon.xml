@@ -241,7 +241,7 @@
 		<weaponTags Inherit="False">
 			<li>GW_EmperorWep</li>
 		</weaponTags>
-		<!-- <recipeMaker Inherit="False" IsNull="True" /> -->
+		<recipeMaker Inherit="False" IsNull="True" />
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<GW_ComponentRelic>18</GW_ComponentRelic>
