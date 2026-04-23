@@ -48,7 +48,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.50</MoveSpeed>
-			<Beauty>10</Beauty>
+			<PawnBeauty>10</PawnBeauty>
 		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
@@ -144,7 +144,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.50</MoveSpeed>
-			<Beauty>10</Beauty>
+			<PawnBeauty>10</PawnBeauty>
 		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
@@ -271,7 +271,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.50</MoveSpeed>
-			<Beauty>10</Beauty>
+			<PawnBeauty>10</PawnBeauty>
 		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>
@@ -433,7 +433,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.50</MoveSpeed>
-			<Beauty>10</Beauty>
+			<PawnBeauty>10</PawnBeauty>
 			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royalty">0.15</PsychicSensitivityOffset>
       		<PsychicEntropyRecoveryRate MayRequire="ludeon.rimworld.royalty">0.066</PsychicEntropyRecoveryRate>
 			<PsychicSensitivity>1.2</PsychicSensitivity>
@@ -576,7 +576,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.70</MoveSpeed>
-			<Beauty>10</Beauty>
+			<PawnBeauty>10</PawnBeauty>
 		</equippedStatOffsets>
 		<techLevel>Archotech</techLevel>
 		<relicChance>3</relicChance>

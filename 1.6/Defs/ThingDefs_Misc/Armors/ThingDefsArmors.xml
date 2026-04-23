@@ -24,7 +24,7 @@
 		</thingCategories>
 		<uiIconScale>1</uiIconScale>
 		<equippedStatOffsets>
-			<Beauty>50</Beauty>	
+			<PawnBeauty>50</PawnBeauty>	
 			<HypoxiaResistance MayRequire="kentington.saveourship2">0.75</HypoxiaResistance>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
 			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
