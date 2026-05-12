@@ -40,25 +40,18 @@
 						<flip>false</flip>
 					</dataWest>
 					<dataNorth>
-						<layer>75</layer>						
+						<layer>75</layer>
 					</dataNorth>
 				</drawData>
 			</li>
 		</renderNodeProperties>
-    <abilities>
-      <li>EmperorLOTDAbility</li>
-    </abilities>
 		<comps>
-			<li Class="gwrulers.HediffCompProperties_AbilitiesStartWithCooldown" />
 			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
 				<ownerFactionHediff>GW40k_SS_InspiringAura_Reciever</ownerFactionHediff>
 				<affectWearer>false</affectWearer>
 				<severityPerTrigger>1</severityPerTrigger>
 				<tickInterval>120</tickInterval>
 				<radius>5</radius>
-				<mote>GW40k_SS_Aura</mote>
-				<uiIconEnabled>UI/Icon-PowerGuilliman-Active</uiIconEnabled>
-				<uiIconDisabled>UI/Icon-PowerGuilliman-Inactive</uiIconDisabled>
 			</li>
 		</comps>
 		<stages>
@@ -68,6 +61,47 @@
 					<InjuryHealingFactor>2.0</InjuryHealingFactor>
 					<PsychicSensitivity>1</PsychicSensitivity>
 					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>GW40k_SS_InspiringAura</defName>
+		<label>holy light aura</label>
+		<description>This pawn radiates the Emperor's holy light, inspiring nearby allies to fight harder.</description>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>0.001</initialSeverity>
+		<comps>
+			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
+				<ownerFactionHediff>GW40k_SS_InspiringAura_Reciever</ownerFactionHediff>
+				<affectWearer>false</affectWearer>
+				<severityPerTrigger>1</severityPerTrigger>
+				<tickInterval>120</tickInterval>
+				<radius>5</radius>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>GW40k_SS_InspiringAura_Reciever</defName>
+		<label>inspired by holy light</label>
+		<description>This pawn is inspired by holy light, driving them to greater feats in battle.</description>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-12</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>0.10</MoveSpeed>
+					<MeleeHitChance>1</MeleeHitChance>
 				</statOffsets>
 			</li>
 		</stages>
