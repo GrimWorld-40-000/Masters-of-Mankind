@@ -15,6 +15,24 @@
 		</comps>
 	</HediffDef>
 
+	<ThingDef ParentName="MoteBase">
+		<defName>GW_Ruler_EmperorAuraMote</defName>
+		<thingClass>MoteAttached</thingClass>
+		<altitudeLayer>LightingOverlay</altitudeLayer>
+		<drawOffscreen>true</drawOffscreen>
+		<mote>
+			<solidTime>9999999</solidTime>
+			<needsMaintenance>true</needsMaintenance>
+		</mote>
+		<graphicData>
+			<graphicClass>Graphic_Mote</graphicClass>
+			<texPath>Effects/Aura</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<color>(1,0.72,0.18,0.20)</color>
+			<drawSize>10</drawSize>
+		</graphicData>
+	</ThingDef>
+
 	<HediffDef>
 		<defName>GW_Ruler_EmperorAura</defName>
 		<label>Holy Light</label>
@@ -46,12 +64,18 @@
 			</li>
 		</renderNodeProperties>
 		<comps>
-			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
-				<ownerFactionHediff>GW40k_SS_InspiringAura_Reciever</ownerFactionHediff>
-				<affectWearer>false</affectWearer>
-				<severityPerTrigger>1</severityPerTrigger>
-				<tickInterval>120</tickInterval>
-				<radius>5</radius>
+			<li Class="HediffCompProperties_GiveHediffsInRange">
+				<range>5</range>
+				<mote>GW_Ruler_EmperorAuraMote</mote>
+				<targetingParameters>
+					<canTargetBuildings>false</canTargetBuildings>
+					<canTargetAnimals>false</canTargetAnimals>
+					<canTargetMechs>false</canTargetMechs>
+					<canTargetSubhumans>false</canTargetSubhumans>
+				</targetingParameters>
+				<hediff>GW40k_SS_InspiringAura_Reciever</hediff>
+				<initialSeverity>1</initialSeverity>
+				<onlyPawnsInSameFaction>true</onlyPawnsInSameFaction>
 			</li>
 		</comps>
 		<stages>
@@ -93,8 +117,8 @@
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-12</severityPerDay>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>false</showRemainingTime>
 			</li>
 		</comps>
 		<stages>
