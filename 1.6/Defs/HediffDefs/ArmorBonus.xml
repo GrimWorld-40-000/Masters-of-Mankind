@@ -73,7 +73,7 @@
 					<canTargetMechs>false</canTargetMechs>
 					<canTargetSubhumans>false</canTargetSubhumans>
 				</targetingParameters>
-				<hediff>GW40k_SS_InspiringAura_Reciever</hediff>
+				<hediff>GW_Ruler_InspiredByHolyLight</hediff>
 				<initialSeverity>1</initialSeverity>
 				<onlyPawnsInSameFaction>true</onlyPawnsInSameFaction>
 			</li>
@@ -91,25 +91,7 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>GW40k_SS_InspiringAura</defName>
-		<label>holy light aura</label>
-		<description>This pawn radiates the Emperor's holy light, inspiring nearby allies to fight harder.</description>
-		<isBad>false</isBad>
-		<hediffClass>HediffWithComps</hediffClass>
-		<initialSeverity>0.001</initialSeverity>
-		<comps>
-			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
-				<ownerFactionHediff>GW40k_SS_InspiringAura_Reciever</ownerFactionHediff>
-				<affectWearer>false</affectWearer>
-				<severityPerTrigger>1</severityPerTrigger>
-				<tickInterval>120</tickInterval>
-				<radius>5</radius>
-			</li>
-		</comps>
-	</HediffDef>
-
-	<HediffDef>
-		<defName>GW40k_SS_InspiringAura_Reciever</defName>
+		<defName>GW_Ruler_InspiredByHolyLight</defName>
 		<label>inspired by holy light</label>
 		<description>This pawn is inspired by holy light, driving them to greater feats in battle.</description>
 		<isBad>false</isBad>
@@ -123,8 +105,10 @@
 		</comps>
 		<stages>
 			<li>
+				<statFactors>
+					<MoveSpeed>1.14</MoveSpeed>
+				</statFactors>
 				<statOffsets>
-					<MoveSpeed>0.10</MoveSpeed>
 					<MeleeHitChance>1</MeleeHitChance>
 				</statOffsets>
 			</li>
